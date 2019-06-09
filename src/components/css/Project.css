@@ -1,0 +1,263 @@
+.letter{
+    font-size: 100px;
+    color: #000000;
+    opacity: 0;
+    animation: projectTextEffect 2s 1;
+    animation-delay: 1s;
+    z-index: -2;
+}
+
+@keyframes projectTextEffect{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: .2;
+    }
+}
+
+.letter1{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+}
+
+.letter2{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+}
+
+.letter3{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+}
+
+.letter4{
+    position: absolute;
+    top: 100%;
+    left: 55%;
+}
+
+.letter5{
+    position: absolute;
+    top: 100%;
+    left: 60%;
+}
+
+.letter6{
+    position: absolute;
+    top: 100%;
+    left: 65%;
+}
+
+.letter7{
+    position: absolute;
+    top: 100%;
+    left: 70%;
+}
+
+@media screen and (min-width: 1600px){
+    .letter{
+        font-size: 250px;
+    }
+        
+    .letter1{
+        left: 20%;
+    }
+    
+    .letter2{
+        left: 30%;
+    }
+    
+    .letter3{
+        left: 40%;
+    }
+    
+    .letter4{
+        left: 50%;
+    }
+    
+    .letter5{
+        left: 60%;
+    }
+    
+    .letter6{
+        left: 70%;
+    }
+    
+    .letter7{
+        left: 80%;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    .letter{
+        font-size: 150px;
+    }
+        
+    .letter1{
+        left: 20%;
+    }
+    
+    .letter2{
+        left: 30%;
+    }
+    
+    .letter3{
+        left: 40%;
+    }
+    
+    .letter4{
+        left: 50%;
+    }
+    
+    .letter5{
+        left: 60%;
+    }
+    
+    .letter6{
+        left: 70%;
+    }
+    
+    .letter7{
+        left: 80%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .letter{
+        font-size: 130px;
+    }
+        
+    .letter1{
+        left: 20%;
+    }
+    
+    .letter2{
+        left: 30%;
+    }
+    
+    .letter3{
+        left: 40%;
+    }
+    
+    .letter4{
+        left: 50%;
+    }
+    
+    .letter5{
+        left: 60%;
+    }
+    
+    .letter6{
+        left: 70%;
+    }
+    
+    .letter7{
+        left: 80%;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+    .letter{
+        font-size: 65px;
+    }
+        
+    .letter1{
+        left: 20%;
+    }
+    
+    .letter2{
+        left: 30%;
+    }
+    
+    .letter3{
+        left: 40%;
+    }
+    
+    .letter4{
+        left: 50%;
+    }
+    
+    .letter5{
+        left: 60%;
+    }
+    
+    .letter6{
+        left: 70%;
+    }
+    
+    .letter7{
+        left: 80%;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 426px){
+    .letter{
+        font-size: 55px;
+    }
+        
+    .letter1{
+        left: 20%;
+    }
+    
+    .letter2{
+        left: 30%;
+    }
+    
+    .letter3{
+        left: 40%;
+    }
+    
+    .letter4{
+        left: 50%;
+    }
+    
+    .letter5{
+        left: 60%;
+    }
+    
+    .letter6{
+        left: 70%;
+    }
+    
+    .letter7{
+        left: 80%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 376px){
+    .letter{
+        font-size: 55px;
+    }
+        
+    .letter1{
+        left: 20%;
+    }
+    
+    .letter2{
+        left: 32%;
+    }
+    
+    .letter3{
+        left: 44%;
+    }
+    
+    .letter4{
+        left: 46%;
+    }
+    
+    .letter5{
+        left: 58%;
+    }
+    
+    .letter6{
+        left: 70%;
+    }
+    
+    .letter7{
+        left: 82%;
+    }
+}

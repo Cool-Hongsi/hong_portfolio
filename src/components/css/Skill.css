@@ -1,0 +1,624 @@
+.skill-outside-frontend{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.skill-outside-frontend .skill-inside-frontend{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    height: 50vh;
+    transform: translate(-50%, -50%);
+    display: flex;
+    /* background: rgb(243, 243, 243); */
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-outside-frontend .skill-inside-frontend .left{
+    width: 100%;
+    margin: auto;
+    padding: 70px 0px 50px 0px;
+}
+
+.skill-outside-frontend .skill-inside-frontend .right{
+    width: 100%;
+    padding: 20px;
+    text-align: right;
+}
+
+.skill-outside-frontend .skill-inside-frontend .right .front-title{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.skill-outside-frontend .skill-inside-frontend .right .front-content{
+    font-size: 18px;
+}
+
+.skill-outside-frontend .skill-inside-frontend .left .front-main-title{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(190, 54, 54);
+}
+
+.skill-outside-frontend .skill-inside-frontend .left .frontendImage{
+    width: 200px;
+    height: 200px;
+}
+
+.skill-outside-backend{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.skill-outside-backend .skill-inside-backend{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 90%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    /* background: rgb(243, 243, 243); */
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-outside-backend .skill-inside-backend .left{
+    width: 100%;
+    margin: auto;
+    padding: 50px 0px 50px 0px;
+}
+
+.skill-outside-backend .skill-inside-backend .right{
+    width: 100%;
+    padding: 20px;
+    text-align: right;
+}
+
+.skill-outside-backend .skill-inside-backend .right .back-title{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.skill-outside-backend .skill-inside-backend .right .back-content{
+    font-size: 18px;
+}
+
+.skill-outside-backend .skill-inside-backend .left .back-main-title{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(56, 65, 182);
+}
+
+.skill-outside-backend .skill-inside-backend .left .backendImage{
+    width: 200px;
+    height: 200px;
+}
+
+.skill-outside-etc{
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+}
+
+.skill-outside-etc .skill-inside-etc{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 90%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    /* background: rgb(243, 243, 243); */
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-outside-etc .skill-inside-etc .left{
+    width: 100%;
+    margin: auto;
+    padding: 30px 0px 50px 0px;
+    text-align: center;
+}
+
+.skill-outside-etc .skill-inside-etc .right{
+    width: 100%;
+    padding: 20px;
+    text-align: right;
+}
+
+.skill-outside-etc .skill-inside-etc .right .etc-title{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.skill-outside-etc .skill-inside-etc .right .etc-content{
+    font-size: 18px;
+}
+
+.skill-outside-etc .skill-inside-etc .left .etc-main-title{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: rgb(135, 153, 52);
+}
+
+.skill-outside-etc .skill-inside-etc .left .etcImage{
+    width: 170px;
+    height: 150px;
+}
+
+@media screen and (min-width: 1600px){
+    .skill-outside-frontend .skill-inside-frontend .right .front-title{
+        font-size: 40px;
+    }
+    
+    .skill-outside-frontend .skill-inside-frontend .right .front-content{
+        font-size: 25px;
+    }
+    
+    .skill-outside-frontend .skill-inside-frontend .left .front-main-title{
+        font-size: 50px;
+    }
+    
+    .skill-outside-frontend .skill-inside-frontend .left .frontendImage{
+        width: 400px;
+        height: 400px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend{
+        top: 20%;
+    }
+        
+    .skill-outside-backend .skill-inside-backend .right .back-title{
+        font-size: 40px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend .right .back-content{
+        font-size: 25px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend .left .back-main-title{
+        font-size: 50px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend .left .backendImage{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .skill-outside-etc{
+        height: 20vh;
+    }
+    
+    .skill-outside-etc .skill-inside-etc{
+        top: -110%;
+    }
+    
+    .skill-outside-etc .skill-inside-etc .right .etc-title{
+        font-size: 40px;
+    }
+    
+    .skill-outside-etc .skill-inside-etc .right .etc-content{
+        font-size: 25px;
+    }
+    
+    .skill-outside-etc .skill-inside-etc .left .etc-main-title{
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+    
+    .skill-outside-etc .skill-inside-etc .left .etcImage{
+        width: 250px;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1239px){
+    .skill-outside-frontend .skill-inside-frontend{
+        top: 55%;
+    }
+
+    .skill-outside-frontend .skill-inside-frontend .right .front-title{
+        font-size: 21px;
+    }
+    
+    .skill-outside-frontend .skill-inside-frontend .right .front-content{
+        font-size: 14px;
+    }
+    
+    .skill-outside-frontend .skill-inside-frontend .left .front-main-title{
+        font-size: 25px;
+    }
+    
+    .skill-outside-frontend .skill-inside-frontend .left .frontendImage{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend{
+        top: 30%;
+    }
+        
+    .skill-outside-backend .skill-inside-backend .right .back-title{
+        font-size: 21px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend .right .back-content{
+        font-size: 14px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend .left .back-main-title{
+        font-size: 25px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend .left .backendImage{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .skill-outside-etc{
+        height: 50vh;
+    }
+    
+    .skill-outside-etc .skill-inside-etc{
+        top: -10%;
+    }
+    
+    .skill-outside-etc .skill-inside-etc .right .etc-title{
+        font-size: 21px;
+    }
+    
+    .skill-outside-etc .skill-inside-etc .right .etc-content{
+        font-size: 14px;
+    }
+    
+    .skill-outside-etc .skill-inside-etc .left .etc-main-title{
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    
+    .skill-outside-etc .skill-inside-etc .left .etcImage{
+        width: 130px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .skill-outside-frontend .skill-inside-frontend{
+        top: 55%;
+    }
+
+    .skill-outside-frontend .skill-inside-frontend .right{
+        padding: 15px;
+    }
+
+    .skill-outside-frontend .skill-inside-frontend .right .front-title{
+        font-size: 18px;
+    }
+    
+    .skill-outside-frontend .skill-inside-frontend .right .front-content{
+        font-size: 12px;
+    }
+    
+    .skill-outside-frontend .skill-inside-frontend .left .front-main-title{
+        font-size: 25px;
+    }
+    
+    .skill-outside-frontend .skill-inside-frontend .left .frontendImage{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend{
+        top: 30%;
+    }
+
+    .skill-outside-backend .skill-inside-backend .right{
+        padding: 15px;
+    }
+
+    .skill-outside-backend .skill-inside-backend .right .back-title{
+        font-size: 18px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend .right .back-content{
+        font-size: 12px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend .left .back-main-title{
+        font-size: 25px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend .left .backendImage{
+        width: 130px;
+        height: 130px;
+    }
+    
+    .skill-outside-etc{
+        height: 40vh;
+    }
+    
+    .skill-outside-etc .skill-inside-etc{
+        top: -15%;
+    }
+
+    .skill-outside-etc .skill-inside-etc .right{
+        padding: 15px;
+    }
+    
+    .skill-outside-etc .skill-inside-etc .right .etc-title{
+        font-size: 18px;
+    }
+
+    .skill-outside-etc .skill-inside-etc .right .etc-content{
+        font-size: 12px;
+    }
+    
+    .skill-outside-etc .skill-inside-etc .left .etc-main-title{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    
+    .skill-outside-etc .skill-inside-etc .left .etcImage{
+        width: 110px;
+        height: 80px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px){
+    .skill-outside-frontend .skill-inside-frontend{
+        top: 80%;
+    }
+
+    .skill-outside-frontend .skill-inside-frontend .right{
+        text-align: center;
+    }
+
+    .skill-outside-frontend .skill-inside-frontend .right .front-title{
+        font-size: 22px;
+    }
+    
+    .skill-outside-frontend .skill-inside-frontend .right .front-content{
+        font-size: 15px;
+    }
+    
+    .skill-outside-frontend .skill-inside-frontend .left .front-main-title{
+        font-size: 30px;
+    }
+    
+    .skill-outside-frontend .skill-inside-frontend .left .frontendImage{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend{
+        top: 110%;
+    }
+
+    .skill-outside-backend .skill-inside-backend .right{
+        text-align: center;
+    }
+
+    .skill-outside-backend .skill-inside-backend .right .back-title{
+        font-size: 22px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend .right .back-content{
+        font-size: 15px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend .left .back-main-title{
+        font-size: 30px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend .left .backendImage{
+        width: 130px;
+        height: 130px;
+    }
+    
+    .skill-outside-etc{
+        height: 180vh;
+    }
+    
+    .skill-outside-etc .skill-inside-etc{
+        top: 64%;
+    }
+
+    .skill-outside-etc .skill-inside-etc .right{
+        text-align: center;
+    }
+    
+    .skill-outside-etc .skill-inside-etc .right .etc-title{
+        font-size: 22px;
+    }
+
+    .skill-outside-etc .skill-inside-etc .right .etc-content{
+        font-size: 15px;
+    }
+    
+    .skill-outside-etc .skill-inside-etc .left .etc-main-title{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .skill-outside-etc .skill-inside-etc .left .etcImage{
+        width: 110px;
+        height: 80px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 426px){
+    .skill-outside-frontend .skill-inside-frontend{
+        top: 80%
+    }
+
+    .skill-outside-frontend .skill-inside-frontend .right{
+        text-align: center;
+    }
+
+    .skill-outside-frontend .skill-inside-frontend .right .front-title{
+        font-size: 19px;
+    }
+    
+    .skill-outside-frontend .skill-inside-frontend .right .front-content{
+        font-size: 13px;
+    }
+    
+    .skill-outside-frontend .skill-inside-frontend .left .front-main-title{
+        font-size: 25px;
+    }
+    
+    .skill-outside-frontend .skill-inside-frontend .left .frontendImage{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend{
+        top: 110%;
+    }
+
+    .skill-outside-backend .skill-inside-backend .right{
+        text-align: center;
+    }
+
+    .skill-outside-backend .skill-inside-backend .right .back-title{
+        font-size: 19px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend .right .back-content{
+        font-size: 13px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend .left .back-main-title{
+        font-size: 25px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend .left .backendImage{
+        width: 130px;
+        height: 130px;
+    }
+    
+    .skill-outside-etc{
+        height: 180vh;
+    }
+    
+    .skill-outside-etc .skill-inside-etc{
+        top: 64%;
+    }
+
+    .skill-outside-etc .skill-inside-etc .right{
+        text-align: center;
+    }
+    
+    .skill-outside-etc .skill-inside-etc .right .etc-title{
+        font-size: 19px;
+    }
+
+    .skill-outside-etc .skill-inside-etc .right .etc-content{
+        font-size: 13px;
+    }
+    
+    .skill-outside-etc .skill-inside-etc .left .etc-main-title{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    
+    .skill-outside-etc .skill-inside-etc .left .etcImage{
+        width: 110px;
+        height: 80px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 376px){
+    .skill-outside-frontend .skill-inside-frontend{
+        top: 85%
+    }
+
+    .skill-outside-frontend .skill-inside-frontend .right{
+        text-align: center;
+    }
+
+    .skill-outside-frontend .skill-inside-frontend .right .front-title{
+        font-size: 15px;
+    }
+    
+    .skill-outside-frontend .skill-inside-frontend .right .front-content{
+        font-size: 10px;
+    }
+    
+    .skill-outside-frontend .skill-inside-frontend .left .front-main-title{
+        font-size: 22px;
+    }
+    
+    .skill-outside-frontend .skill-inside-frontend .left .frontendImage{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend{
+        top: 110%;
+    }
+
+    .skill-outside-backend .skill-inside-backend .right{
+        text-align: center;
+    }
+
+    .skill-outside-backend .skill-inside-backend .right .back-title{
+        font-size: 15px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend .right .back-content{
+        font-size: 10px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend .left .back-main-title{
+        font-size: 22px;
+    }
+    
+    .skill-outside-backend .skill-inside-backend .left .backendImage{
+        width: 130px;
+        height: 130px;
+    }
+    
+    .skill-outside-etc{
+        height: 180vh;
+    }
+    
+    .skill-outside-etc .skill-inside-etc{
+        top: 64%;
+    }
+
+    .skill-outside-etc .skill-inside-etc .right{
+        text-align: center;
+    }
+    
+    .skill-outside-etc .skill-inside-etc .right .etc-title{
+        font-size: 15px;
+    }
+
+    .skill-outside-etc .skill-inside-etc .right .etc-content{
+        font-size: 10px;
+    }
+    
+    .skill-outside-etc .skill-inside-etc .left .etc-main-title{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    
+    .skill-outside-etc .skill-inside-etc .left .etcImage{
+        width: 90px;
+        height: 70px;
+    }
+}
