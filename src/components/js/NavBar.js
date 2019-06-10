@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/NavBar.css';
+import { Link } from 'react-router-dom';
 
 export default class NavBar extends React.Component{
     render(){
@@ -17,10 +18,14 @@ export default class NavBar extends React.Component{
                     </div>
                     <div className="nav-wrapper">
                         <ul>
-                            <li><a href="/" style={{textDecoration: "none", color: "#000"}}>Home</a></li> {/* Directly styling to tag */}
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/about">About</Link></li>
+                            <li><Link to="/skill">Skill</Link></li>
+                            <li><Link to="/project">Project</Link></li>
+                            {/* <li><a href="/" style={{textDecoration: "none", color: "#000"}}>Home</a></li>
                             <li><a href="/about" style={{textDecoration: "none", color: "#000"}}>About</a></li>
                             <li><a href="/skill" style={{textDecoration: "none", color: "#000"}}>Skill</a></li>
-                            <li><a href="/project" style={{textDecoration: "none", color: "#000"}}>Project</a></li>
+                            <li><a href="/project" style={{textDecoration: "none", color: "#000"}}>Project</a></li> */}
                         </ul>
                     </div>
                 </nav>
