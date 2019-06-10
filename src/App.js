@@ -9,22 +9,20 @@ import Project from './components/js/Project';
 export default class App extends React.Component{
   render(){
     return(
-      <div>
-        <Switch>
-          <Route exact path="/" render={() => (
-            <Landing />
-          )}/>
-          <Route path="/about" render={() => (
-            <About />
-          )}/>
-          <Route path="/skill" render={() => (
-            <Skill />
-          )}/>
-          <Route path="/project" render={() => (
-            <Project />
-          )}/>
-        </Switch>
-      </div>
+      <Switch>
+        <Route exact path="/" render={() => (
+          <Landing />
+        )}/>
+        <Route path="/about" render={() => (
+          <About />
+        )}/>
+        <Route path="/skill" render={() => (
+          <Skill />
+        )}/>
+        <Route path="/project" render={() => (
+          <Project />
+        )}/>
+      </Switch>
     )
   }
 }
