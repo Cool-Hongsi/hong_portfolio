@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Cool-Hongsi.github.io/hong_portfolio/",
+  "homepage": "https://Cool-Hongsi.github.io/hong_portfolio",
   "dependencies": {
     "aos": "^2.3.4",
     "bootstrap": "^4.3.1",
