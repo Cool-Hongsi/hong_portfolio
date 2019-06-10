@@ -6,3 +6,8 @@
     box-sizing: border-box;
     font-family: 'Raleway';
 }
+
+body{
+    overflow-y: auto;
+    overflow-x: hidden;
+}

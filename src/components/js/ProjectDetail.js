@@ -7,22 +7,22 @@ export default class ProjectDetail extends React.Component{
     componentDidMount(){
         TweenMax.to(".pro1", 1, {
             opacity: 1,
-            delay: 3.5
+            delay: 3.2
         });
 
         TweenMax.to(".pro2", 1, {
             opacity: 1,
-            delay: 3.8
+            delay: 3.5
         });
 
         TweenMax.to(".pro3", 1, {
             opacity: 1,
-            delay: 4.1
+            delay: 3.8
         });
         
         TweenMax.to(".pro4", 1, {
             opacity: 1,
-            delay: 4.4
+            delay: 4.1
         });
     }
 

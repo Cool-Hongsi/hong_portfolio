@@ -19,16 +19,16 @@ export default class Landing extends React.Component{
         });
 
         TweenMax.to(".landing-pic", 1, {
-            delay: 8,
+            delay: 7.5,
             opacity: 1
         });
 
-        TweenMax.to(".landing-label-width-yellow", 1, {
-            delay : 8,
-            width: "70%",
-            height: "35%",
-            opacity: 1
-        });
+        // TweenMax.to(".landing-label-width-yellow", 1, {
+        //     delay : 8,
+        //     width: "70%",
+        //     height: "35%",
+        //     opacity: 1
+        // });
 
         TweenMax.to(".text1", 1, {
             delay: 8.4,
@@ -116,9 +116,9 @@ export default class Landing extends React.Component{
                             </div>
                         </div>
                     </div>
-                    <div className="landing-label-width-yellow">
+                    {/* <div className="landing-label-width-yellow">
 
-                    </div>
+                    </div> */}
                     <div className="landing-pic">
                         
                     </div>

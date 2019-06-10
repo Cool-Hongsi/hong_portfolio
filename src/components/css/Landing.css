@@ -64,7 +64,7 @@
     position: absolute;
     width: 0%;
     height: 100vh;
-    background: rgb(175, 116, 48);
+    background: rgb(209, 139, 59);
     animation: go-left 3.2s cubic-bezier(.74, .06, .4, .92) forwards;
     -webkit-animation: go-left 3.2s cubic-bezier(.74, .06, .4, .92) forwards;
     -moz-animation: go-left 3.2s cubic-bezier(.74, .06, .4, .92) forwards;
@@ -297,7 +297,7 @@ p{
     opacity: 0;
 }
 
-.landing-label-width-yellow{
+/* .landing-label-width-yellow{
     position: absolute;
     top: 30%;
     left: 20%;
@@ -352,7 +352,7 @@ p{
         height: 35%;
         opacity: 1;
     }
-}
+} */
 
 .landing-pic{
     position: absolute;
@@ -433,9 +433,9 @@ p{
         font-size: 20px;
     }
 
-    .landing-label-width-yellow{
+    /* .landing-label-width-yellow{
         height: 30%;
-    }
+    } */
 }
 
 @media screen and (min-width: 375px) and (max-width: 424px){
@@ -450,10 +450,10 @@ p{
     .text2{
         font-size: 20px;
     }
-
+/* 
     .landing-label-width-yellow{
         height: 35%;
-    }
+    } */
 }
 
 @media screen and (max-width: 374px){
@@ -469,7 +469,7 @@ p{
         font-size: 15px;
     }
 
-    .landing-label-width-yellow{
+    /* .landing-label-width-yellow{
         height: 35%;
-    }
+    } */
 }

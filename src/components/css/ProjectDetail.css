@@ -316,7 +316,7 @@
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
-    
+
     transition: transform 0.5s;
     -webkit-transition: transform 0.5s;
     -moz-transition: transform 0.5s;
@@ -489,7 +489,7 @@
         width: 60%;
         left: 70%;
         top: 140%;
-        margin-bottom: 200px;
+        margin-bottom: 300px;
         height: 29%;
     }
     
@@ -533,7 +533,7 @@
         width: 75%;
         left: 60%;
         top: 145%;
-        margin-bottom: 200px;
+        margin-bottom: 300px;
         height: 29%;
     }
     
