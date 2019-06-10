@@ -6,6 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-    <BrowserRouter>
+    <BrowserRouter basename="/hong_portfolio">
         <App />
     </BrowserRouter>, document.getElementById('root'));
+ 
