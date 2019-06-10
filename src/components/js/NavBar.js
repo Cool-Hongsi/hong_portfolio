@@ -14,15 +14,15 @@ export default class NavBar extends React.Component{
                         <i></i> 
                     </label>
                     <div className="logo">
-                        <Link to="/" style={{textDecoration: "none", color: "#000"}}>HONG</Link>
+                        <Link to="/" className="link" style={{textDecoration: "none"}}>HONG</Link>
                         {/* <a href="/" style={{textDecoration: "none", color: "#000"}}>HONG</a> */}
                     </div>
                     <div className="nav-wrapper">
                         <ul>
-                            <li><Link to="/" style={{textDecoration: "none", color: "#000"}}>Home</Link></li>
-                            <li><Link to="/about" style={{textDecoration: "none", color: "#000"}}>About</Link></li>
-                            <li><Link to="/skill" style={{textDecoration: "none", color: "#000"}}>Skill</Link></li>
-                            <li><Link to="/project" style={{textDecoration: "none", color: "#000"}}>Project</Link></li>
+                            <li><Link to="/" className="link" style={{textDecoration: "none"}}>Home</Link></li>
+                            <li><Link to="/about" className="link" style={{textDecoration: "none"}}>About</Link></li>
+                            <li><Link to="/skill" className="link" style={{textDecoration: "none"}}>Skill</Link></li>
+                            <li><Link to="/project" className="link" style={{textDecoration: "none"}}>Project</Link></li>
 
                             {/* <li><a href="/" style={{textDecoration: "none", color: "#000"}}>Home</a></li>
                             <li><a href="/about" style={{textDecoration: "none", color: "#000"}}>About</a></li>

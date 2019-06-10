@@ -30,6 +30,17 @@ nav .nav-wrapper{
     width: 100%;
 }
 
+.link{
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+}
+
+.link:hover{
+    color: rgb(197, 89, 89);
+}
+
 nav ul{
     float: right;
 }
