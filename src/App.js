@@ -14,13 +14,13 @@ export default class App extends React.Component{
           <Route exact path="/" render={() => (
             <Landing />
           )}/>
-          <Route path="/about" render={() => (
+          <Route exact path="/about" render={() => (
             <About />
           )}/>
-          <Route path="/skill" render={() => (
+          <Route exact path="/skill" render={() => (
             <Skill />
           )}/>
-          <Route path="/project" render={() => (
+          <Route exact path="/project" render={() => (
             <Project />
           )}/>
         </Switch>
