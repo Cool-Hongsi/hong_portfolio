@@ -230,6 +230,10 @@ h1 {
     -ms-animation-delay: 4s;
 }
 
+.subTitle{
+    font-weight: 800;
+}
+
 .subTitle i{
     color: #ca6161;
     font-size: 34px;
