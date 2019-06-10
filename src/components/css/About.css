@@ -137,17 +137,19 @@ h1 {
 .social .social-media i{
     font-size: 45px;
     margin: 30px;
+    color: #7461ca;
 }
 
 .rev-block .subContent{
-    font-size: 15px; 
+    font-size: 20px; 
     font-weight: 200;
 }
 
 .rev-block .subContent ul{
     font-weight: 300;
-    font-size: 13px;
-    margin: 25px;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 12px;
 }
 
 .rev-block .subContent ul .title{
@@ -229,7 +231,8 @@ h1 {
 }
 
 .subTitle i{
-    color: #940000;
+    color: #ca6161;
+    font-size: 50px;
 }
 
 @media screen and (min-width: 1600px){
@@ -267,12 +270,18 @@ h1 {
 
     .rev-block .subContent ul{
         font-weight: 300;
-        font-size: 30px;
+        font-size: 32px;
+        line-height: 45px;
+        margin: 12px;
     }
 
     .social .social-media i{
         font-size: 80px;
         margin: 40px;
+    }
+
+    .subTitle i{
+        font-size: 80px;
     }
 }
 
@@ -315,12 +324,18 @@ h1 {
 
     .rev-block .subContent ul{
         font-weight: 300;
-        font-size: 13px;
+        font-size: 14px;
+        line-height: 22px;
+        margin: 12px;
     }
 
     .social .social-media i{
         font-size: 30px;
         margin: 20px;
+    }
+
+    .subTitle i{
+        font-size: 32px;
     }
 }
 
@@ -369,6 +384,10 @@ h1 {
     .social .social-media i{
         font-size: 30px;
         margin: 20px;
+    }
+
+    .subTitle i{
+        font-size: 30px;
     }
 }
 
@@ -436,6 +455,10 @@ h1 {
         font-size: 35px;
         margin: 20px;
     }
+
+    .subTitle i{
+        font-size: 27px;
+    }
 }
 
 @media screen and (min-width: 376px) and (max-width: 516px){
@@ -502,6 +525,10 @@ h1 {
         font-size: 30px;
         margin: 20px;
     }
+
+    .subTitle i{
+        font-size: 22px;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 376px){
@@ -567,5 +594,9 @@ h1 {
     .social .social-media i{
         font-size: 30px;
         margin: 20px;
+    }
+
+    .subTitle i{
+        font-size: 20px;
     }
 }

@@ -32,7 +32,7 @@ export default class ProjectDetail extends React.Component{
                 <h2 className="project-title">{this.props.title}</h2>
                 <div className="overlay">
                     <div className="content">
-                        {this.props.language}<br/><br/>
+                        <div style={{fontWeight: 700}}>{this.props.language}</div><br/>
                         {this.props.content}<br/><br/>
                         <a href={this.props.github} target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>GitHub</a>
                     </div>
