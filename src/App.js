@@ -9,7 +9,7 @@ import Project from './components/js/Project';
 export default class App extends React.Component{
   render(){
     return(
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path="/" component={Landing} />
           <Route path="/about" component={About} />
