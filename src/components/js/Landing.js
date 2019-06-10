@@ -75,7 +75,7 @@ export default class Landing extends React.Component{
     render(){
         return(
             <MainContainer>
-                {/* <div className="temp"></div> */}
+                <div className="temp"></div>
                     <div className="first-block"></div>
                     <div className="second-block"></div>
                     <div className="loader">
