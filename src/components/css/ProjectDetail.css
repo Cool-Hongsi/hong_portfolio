@@ -329,9 +329,11 @@
     .pro1{
         width: 35%;
     }
-    
+
     .pro2{
         width: 50%;
+        left: 70%;
+        top: 80%;
     }
     
     .pro3{
@@ -363,6 +365,8 @@
     
     .pro2{
         width: 50%;
+        left: 70%;
+        top: 80%;
     }
     
     .pro3{
@@ -394,6 +398,8 @@
     
     .pro2{
         width: 55%;
+        left: 70%;
+        top: 80%;
     }
     
     .pro3{
@@ -428,16 +434,16 @@
     }
     
     .pro2{
-        width: 65%;
-        left: 60%;
-        top: 70%;
+        width: 70%;
+        left: 65%;
+        top: 75%;
         height: 36%;
     }
     
     .pro3{
         width: 55%;
         left: 35%;
-        top: 100%;
+        top: 110%;
         height: 37%;
     }
     
@@ -490,7 +496,7 @@
         left: 70%;
         top: 140%;
         margin-bottom: 300px;
-        height: 29%;
+        height: 31%;
     }
     
     .project-title{
@@ -534,7 +540,7 @@
         left: 60%;
         top: 145%;
         margin-bottom: 300px;
-        height: 29%;
+        height: 31%;
     }
     
     .project-title{

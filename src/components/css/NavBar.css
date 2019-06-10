@@ -26,7 +26,7 @@ nav{
 }
 
 nav .nav-wrapper{
-    margin-top: 20px;
+    margin-top: 16px;
     width: 100%;
 }
 
@@ -38,7 +38,7 @@ nav .nav-wrapper{
 }
 
 .link:hover{
-    color: rgb(197, 89, 89);
+    color: rgb(107, 73, 170);
 }
 
 nav ul{

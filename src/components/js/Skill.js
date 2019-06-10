@@ -49,13 +49,13 @@ export default class Skill extends React.Component{
                                         <span className="front-content">Tag Handling | Jade Template</span>
                                         <hr/>
                                         <p className="front-title">CSS (2 Years)</p>
-                                        <span className="front-content">Bootstrap | Responsive (Grid, Media Query)<br/>SCSS & SASS (Studying) | Cross Browser (Studying)</span>
+                                        <span className="front-content">Bootstrap | Responsive (Grid, Media Query)<br/>Cross Browser | SCSS & SASS (Studying)</span>
                                         <hr/>
                                         <p className="front-title">Javascript (2 Years)</p>
                                         <span className="front-content">ES6 | DOM | JSON | jQuery | Utilize API</span>
                                         <hr/>
                                         <p className="front-title">ReactJS (1 Year)</p>
-                                        <span className="front-content">Props | State | Axios | Router | LifeCycle | REST API<br/>Jest (Studying) | Redux (Studying) | Single Page Application</span>
+                                        <span className="front-content">Props | State | Axios | Router | LifeCycle | REST API<br/>Single Page Application | Jest (Studying) | Redux (Studying)</span>
                                     </div>
                                 </Col>
                             </Row>
