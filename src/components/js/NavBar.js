@@ -18,9 +18,9 @@ export default class NavBar extends React.Component{
                     <div className="nav-wrapper">
                         <ul>
                             <li><a href="/" style={{textDecoration: "none", color: "#000"}}>Home</a></li> {/* Directly styling to tag */}
-                            <li><a href="/hong_portfolio/about" style={{textDecoration: "none", color: "#000"}}>About</a></li>
-                            <li><a href="/hong_portfolio/skill" style={{textDecoration: "none", color: "#000"}}>Skill</a></li>
-                            <li><a href="/hong_portfolio/project" style={{textDecoration: "none", color: "#000"}}>Project</a></li>
+                            <li><a href="/about" style={{textDecoration: "none", color: "#000"}}>About</a></li>
+                            <li><a href="/skill" style={{textDecoration: "none", color: "#000"}}>Skill</a></li>
+                            <li><a href="/project" style={{textDecoration: "none", color: "#000"}}>Project</a></li>
                         </ul>
                     </div>
                 </nav>
