@@ -332,8 +332,8 @@
 
     .pro2{
         width: 50%;
-        left: 70%;
-        top: 70%;
+        left: 75%;
+        top: 65%;
     }
     
     .pro3{
@@ -346,15 +346,15 @@
     }
     
     .project-title{
-        font-size: 60px;
+        font-size: 50px;
     }
     
     .content{
-        font-size: 28px;
+        font-size: 24px;
     }
     
     .content a{
-        font-size: 32px;
+        font-size: 26px;
     }
 }
 
