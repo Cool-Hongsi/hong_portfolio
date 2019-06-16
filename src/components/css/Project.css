@@ -1,3 +1,67 @@
+.project-show-outside{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    animation: projectPage 4s 1;
+    -webkit-animation: projectPage 4s 1;
+    -moz-animation: projectPage 4s 1;
+    -ms-animation: projectPage 4s 1;
+}
+
+.project-show-outside .project-show-inside{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    animation: projectPageContent 3s 1;
+    -webkit-animation: projectPageContent 3s 1;
+    -moz-animation: projectPageContent 3s 1;
+    -ms-animation: projectPageContent 3s 1;
+
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -ms-animation-delay: 1s;
+
+    font-size: 85px;
+    font-weight: 800;
+}
+
+@keyframes projectPage{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes projectPageContent{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.project-detail-outside{
+    display: none;
+    opacity: 0;
+}
+
 .letter{
     font-size: 100px;
     color: #000000;
@@ -7,10 +71,10 @@
     -moz-animation: projectTextEffect 2s 1;
     -ms-animation: projectTextEffect 2s 1;
 
-    animation-delay: 1s;
-    -webkit-animation-delay: 1s;
-    -moz-animation-delay: 1s;
-    -ms-animation-delay: 1s;
+    animation-delay: 6s;
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -ms-animation-delay: 6s;
     z-index: -2;
 }
 
@@ -66,6 +130,10 @@
 }
 
 @media screen and (min-width: 1600px){
+    .project-show-outside .project-show-inside{
+        font-size: 110px;
+    }
+
     .letter{
         font-size: 250px;
     }
@@ -100,6 +168,10 @@
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px){
+    .project-show-outside .project-show-inside{
+        font-size: 65px;
+    }
+
     .letter{
         font-size: 150px;
     }
@@ -134,6 +206,10 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
+    .project-show-outside .project-show-inside{
+        font-size: 50px;
+    }
+
     .letter{
         font-size: 130px;
     }
@@ -168,6 +244,10 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px){
+    .project-show-outside .project-show-inside{
+        font-size: 30px;
+    }
+
     .letter{
         font-size: 65px;
     }
@@ -202,6 +282,10 @@
 }
 
 @media screen and (min-width: 376px) and (max-width: 426px){
+    .project-show-outside .project-show-inside{
+        font-size: 25px;
+    }
+    
     .letter{
         font-size: 55px;
     }
@@ -236,6 +320,10 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 376px){
+    .project-show-outside .project-show-inside{
+        font-size: 22px;
+    }
+
     .letter{
         font-size: 55px;
     }

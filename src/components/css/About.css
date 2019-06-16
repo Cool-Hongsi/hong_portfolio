@@ -1,9 +1,591 @@
+.about-show-outside{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    animation: aboutPage 4s 1;
+    -webkit-animation: aboutPage 4s 1;
+    -moz-animation: aboutPage 4s 1;
+    -ms-animation: aboutPage 4s 1;
+}
+
+.about-show-outside .about-show-inside{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    animation: aboutPageContent 3s 1;
+    -webkit-animation: aboutPageContent 3s 1;
+    -moz-animation: aboutPageContent 3s 1;
+    -ms-animation: aboutPageContent 3s 1;
+
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -ms-animation-delay: 1s;
+
+    font-size: 85px;
+    font-weight: 800;
+}
+
+@keyframes aboutPage{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes aboutPageContent{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.about-outside-face{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: none;
+    opacity: 0;
+}
+
+.about-outside-face .about-inside-face{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.about-outside-face .about-inside-face .face{
+    width: 200px;
+    height: 200px;
+}
+
+.about-outside-face .about-inside-face .face-content h4{
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.about-outside-face .about-inside-face .face-content p{
+    width: 100%;
+    font-size: 18px;
+}
+
+.about-outside-face .about-inside-face .social-media a{
+    font-size: 40px;
+    margin:30px;
+}
+
+.about-outside-education{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    height: 80vh;
+    margin-top: 12%;
+    opacity: 0;
+    display: none;
+}
+
+.about-outside-education .about-inside-education{
+    display: flex;
+}
+
+.about-outside-education .about-inside-education .left-pic{
+    position: relative;
+    width : 100%;
+    height: 50vh;
+    background: url('../image/education.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    /* filter: brightness(80%); */
+}
+
+.about-outside-education .about-inside-education .right-content{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(255, 242, 242);
+    text-align: center;
+    margin: 60px 0px 0px -200px;
+}
+
+.about-outside-education .about-inside-education .right-content .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* background-color: rgb(58, 58, 58); */
+    color: rgb(53, 53, 53);
+    line-height: 30px;
+}
+
+.about-outside-education .about-inside-education .right-content .content .content-title{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.about-outside-education .about-inside-education .right-content .content .content-spec{
+    font-size: 19px;
+}
+
+.about-outside-education .about-inside-education .right-content .content .content-spec ul{
+    list-style-type: none;
+}
+
+.about-outside-experience{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    height: 80vh;
+    margin-top: 12%;
+    opacity: 0;
+    display: none;
+}
+
+.about-outside-experience .about-inside-experience{
+    display: flex;
+}
+
+.about-outside-experience .about-inside-experience .right-pic{
+    position: relative;
+    width : 100%;
+    height: 50vh;
+    background: url('../image/experience.jpg') no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.about-outside-experience .about-inside-experience .left-content{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(54, 54, 54);
+    margin: -60px 0px 0px 200px;
+    /* margin: 60px 0px 0px -200px; */
+    text-align: center;
+    z-index: 1;
+}
+
+.about-outside-experience .about-inside-experience .left-content .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* background-color: rgb(227, 246, 255); */
+    line-height: 30px;
+}
+
+.about-outside-experience .about-inside-experience .left-content .content .content-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(235, 235, 235);
+}
+
+.about-outside-experience .about-inside-experience .left-content .content .content-spec{
+    font-size: 19px;
+    color: rgb(235, 235, 235);
+}
+
+.about-outside-experience .about-inside-experience .left-content .content .content-spec ul{
+    list-style-type: none;
+}
+
+@media screen and (min-width: 1600px){
+    .about-show-outside .about-show-inside{
+        font-size: 120px;
+    }
+    
+    .about-outside-face .about-inside-face .face{
+        width: 280px;
+        height: 280px;
+    }
+    
+    .about-outside-face .about-inside-face .face-content h4{
+        font-size: 37px;
+    }
+    
+    .about-outside-face .about-inside-face .face-content p{
+        font-size: 24px;
+    }
+    
+    .about-outside-face .about-inside-face .social-media a{
+        font-size: 60px;
+    }
+    
+    .about-outside-education .about-inside-education .right-content .content{
+        line-height: 38px;
+    }
+    
+    .about-outside-education .about-inside-education .right-content .content .content-title{
+        font-size: 45px;
+    }
+    
+    .about-outside-education .about-inside-education .right-content .content .content-spec{
+        font-size: 25px;
+    }
+    
+    .about-outside-experience .about-inside-experience .left-content .content{
+        line-height: 38px;
+    }
+    
+    .about-outside-experience .about-inside-experience .left-content .content .content-title{
+        font-size: 45px;
+    }
+    
+    .about-outside-experience .about-inside-experience .left-content .content .content-spec{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .about-show-outside .about-show-inside{
+        font-size: 70px;
+    }
+    
+    .about-outside-face .about-inside-face .face{
+        width: 170px;
+        height: 170px;
+    }
+    
+    .about-outside-face .about-inside-face .face-content h4{
+        font-size: 26px;
+    }
+    
+    .about-outside-face .about-inside-face .face-content p{
+        font-size: 17px;
+    }
+    
+    .about-outside-face .about-inside-face .social-media a{
+        font-size: 40px;
+    }
+    
+    .about-outside-education .about-inside-education .right-content .content{
+        line-height: 28px;
+    }
+    
+    .about-outside-education .about-inside-education .right-content .content .content-title{
+        font-size: 28px;
+    }
+    
+    .about-outside-education .about-inside-education .right-content .content .content-spec{
+        font-size: 17px;
+    }
+    
+    .about-outside-experience .about-inside-experience .left-content .content{
+        line-height: 28px;
+    }
+    
+    .about-outside-experience .about-inside-experience .left-content .content .content-title{
+        font-size: 28px;
+    }
+    
+    .about-outside-experience .about-inside-experience .left-content .content .content-spec{
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .about-show-outside .about-show-inside{
+        font-size: 55px;
+    }
+
+    .about-outside-face .about-inside-face .face{
+        width: 160px;
+        height: 160px;
+    }
+    
+    .about-outside-face .about-inside-face .face-content h4{
+        font-size: 23px;
+    }
+    
+    .about-outside-face .about-inside-face .face-content p{
+        font-size: 15px;
+    }
+    
+    .about-outside-face .about-inside-face .social-media a{
+        font-size: 40px;
+    }
+    
+    .about-outside-education .about-inside-education .right-content .content{
+        line-height: 28px;
+    }
+    
+    .about-outside-education .about-inside-education .right-content .content .content-title{
+        font-size: 25px;
+    }
+    
+    .about-outside-education .about-inside-education .right-content .content .content-spec{
+        font-size: 13px;
+    }
+    
+    .about-outside-experience .about-inside-experience .left-content .content{
+        line-height: 28px;
+    }
+    
+    .about-outside-experience .about-inside-experience .left-content .content .content-title{
+        font-size: 25px;
+    }
+    
+    .about-outside-experience .about-inside-experience .left-content .content .content-spec{
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 516px) and (max-width: 767px){
+    .about-show-outside .about-show-inside{
+        font-size: 33px;
+    }
+    
+    .about-outside-face .about-inside-face .face{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .about-outside-face .about-inside-face .face-content h4{
+        font-size: 18px;
+    }
+    
+    .about-outside-face .about-inside-face .face-content p{
+        font-size: 15px;
+    }
+    
+    .about-outside-face .about-inside-face .social-media a{
+        font-size: 35px;
+    }
+
+    .about-outside-education{
+        width: 90%;
+    }
+    
+    .about-outside-education .about-inside-education .left-pic{
+        height: 30vh;
+    }
+    
+    .about-outside-education .about-inside-education .right-content{
+        margin: 30px 0px 30px 0px;
+        height: 50vh;
+    }
+    
+    .about-outside-education .about-inside-education .right-content .content{
+        line-height: 30px;
+    }
+    
+    .about-outside-education .about-inside-education .right-content .content .content-title{
+        font-size: 30px;
+    }
+    
+    .about-outside-education .about-inside-education .right-content .content .content-spec{
+        font-size: 18px;
+    }
+    
+    .about-outside-experience{
+        width: 90%;
+    }
+    
+    .about-outside-experience .about-inside-experience .right-pic{
+        height: 30vh;
+        margin: 0px 0px 100px 0px;
+    }
+    
+    .about-outside-experience .about-inside-experience .left-content{
+        height: 50vh;
+        margin: 0px 0px 30px 0px;
+    }
+    
+    .about-outside-experience .about-inside-experience .left-content .content{
+        line-height: 30px;
+    }
+    
+    .about-outside-experience .about-inside-experience .left-content .content .content-title{
+        font-size: 30px;
+    }
+    
+    .about-outside-experience .about-inside-experience .left-content .content .content-spec{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 516px){
+    .about-show-outside .about-show-inside{
+        font-size: 27px;
+    }
+    
+    .about-outside-face .about-inside-face .face{
+        width: 130px;
+        height: 130px;
+    }
+    
+    .about-outside-face .about-inside-face .face-content h4{
+        font-size: 13px;
+    }
+    
+    .about-outside-face .about-inside-face .face-content p{
+        font-size: 12px;
+    }
+    
+    .about-outside-face .about-inside-face .social-media a{
+        font-size: 30px;
+    }
+
+    .about-outside-education{
+        width: 90%;
+    }
+    
+    .about-outside-education .about-inside-education .left-pic{
+        height: 30vh;
+    }
+    
+    .about-outside-education .about-inside-education .right-content{
+        margin: 30px 0px 30px 0px;
+        height: 50vh;
+    }
+    
+    .about-outside-education .about-inside-education .right-content .content{
+        line-height: 30px;
+    }
+    
+    .about-outside-education .about-inside-education .right-content .content .content-title{
+        font-size: 25px;
+    }
+    
+    .about-outside-education .about-inside-education .right-content .content .content-spec{
+        font-size: 14px;
+    }
+    
+    .about-outside-experience{
+        width: 90%;
+    }
+    
+    .about-outside-experience .about-inside-experience .right-pic{
+        height: 30vh;
+        margin: 0px 0px 100px 0px;
+    }
+    
+    .about-outside-experience .about-inside-experience .left-content{
+        height: 50vh;
+        margin: 50px 0px 30px 0px;
+    }
+    
+    .about-outside-experience .about-inside-experience .left-content .content{
+        line-height: 30px;
+    }
+    
+    .about-outside-experience .about-inside-experience .left-content .content .content-title{
+        font-size: 25px;
+    }
+    
+    .about-outside-experience .about-inside-experience .left-content .content .content-spec{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 376px){
+    .about-show-outside .about-show-inside{
+        font-size: 24px;
+    }
+    
+    .about-outside-face .about-inside-face .face{
+        width: 110px;
+        height: 110px;
+    }
+    
+    .about-outside-face .about-inside-face .face-content h4{
+        font-size: 11px;
+    }
+    
+    .about-outside-face .about-inside-face .face-content p{
+        font-size: 10px;
+    }
+    
+    .about-outside-face .about-inside-face .social-media a{
+        margin: 15px;
+        font-size: 25px;
+    }
+
+    .about-outside-education{
+        width: 90%;
+    }
+    
+    .about-outside-education .about-inside-education .left-pic{
+        height: 30vh;
+    }
+    
+    .about-outside-education .about-inside-education .right-content{
+        margin: 30px 0px 30px 0px;
+        height: 45vh;
+    }
+    
+    .about-outside-education .about-inside-education .right-content .content{
+        line-height: 25px;
+    }
+    
+    .about-outside-education .about-inside-education .right-content .content .content-title{
+        font-size: 18px;
+    }
+    
+    .about-outside-education .about-inside-education .right-content .content .content-spec{
+        font-size: 12px;
+    }
+    
+    .about-outside-experience{
+        width: 90%;
+    }
+    
+    .about-outside-experience .about-inside-experience .right-pic{
+        height: 30vh;
+        margin: 0px 0px 100px 0px;
+    }
+    
+    .about-outside-experience .about-inside-experience .left-content{
+        height: 45vh;
+        margin: 50px 0px 30px 0px;
+    }
+    
+    .about-outside-experience .about-inside-experience .left-content .content{
+        line-height: 25px;
+    }
+    
+    .about-outside-experience .about-inside-experience .left-content .content .content-title{
+        font-size: 18px;
+    }
+    
+    .about-outside-experience .about-inside-experience .left-content .content .content-spec{
+        font-size: 12px;
+    }
+}
+
+/* 
 .about-background {
     position: absolute;
     width: 0%;
     height: 100vh;
     background: #F0F0F0;
-    /* background: linear-gradient(217deg, #0d6970, #daeba6 75.71%); */
     animation: expandNow 1.4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
     -webkit-animation: expandNow 1.4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
     -moz-animation: expandNow 1.4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
@@ -603,4 +1185,4 @@ h1 {
     .subTitle i{
         font-size: 25px;
     }
-}
+} */

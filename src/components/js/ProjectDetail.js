@@ -7,22 +7,27 @@ export default class ProjectDetail extends React.Component{
     componentDidMount(){
         TweenMax.to(".pro1", 1, {
             opacity: 1,
-            delay: 3.2
+            delay: 6.8
         });
 
         TweenMax.to(".pro2", 1, {
             opacity: 1,
-            delay: 3.5
+            delay: 7.1
         });
 
         TweenMax.to(".pro3", 1, {
             opacity: 1,
-            delay: 3.8
+            delay: 7.4
         });
         
         TweenMax.to(".pro4", 1, {
             opacity: 1,
-            delay: 4.1
+            delay: 7.7
+        });
+
+        TweenMax.to(".pro5", 1, {
+            opacity: 1,
+            delay: 8
         });
     }
 
@@ -34,7 +39,7 @@ export default class ProjectDetail extends React.Component{
                     <div className="content">
                         <div style={{fontWeight: 700}}>{this.props.language}</div><br/>
                         {this.props.content}<br/><br/>
-                        <a href={this.props.github} target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>GitHub</a>
+                        <a href={this.props.github} target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>View</a>
                     </div>
                 </div>
             </div>

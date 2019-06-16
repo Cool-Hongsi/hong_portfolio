@@ -67,61 +67,75 @@ export default class Landing extends React.Component{
 
         TweenMax.to(".text2", .8, {
             delay: 12,
-            x: 100,
+            x: 90,
             textShadow: "5px 5px 10px darkgray"
+        });
+
+        TweenMax.to(".rev-block", 1, {
+
         });
     }
 
     render(){
         return(
             <MainContainer>
-                <div className="temp"></div>
-                    <div className="first-block"></div>
-                    <div className="second-block"></div>
-                    <div className="loader">
-                            <ul>
-                                <li>S</li>
-                                <li>U</li>
-                                <li>N</li>
-                                <li>G</li>
-                                <li>J</li>
-                                <li>U</li>
-                                <li>N</li>
-                            </ul>
-                    </div>
-                    <div className="content-outside">
-                        <div className="content-inside">
-                            <div className="text1">
-                                <span className="junior-j">J</span>
-                                <span className="junior-u">U</span>
-                                <span className="junior-n">N</span>
-                                <span className="junior-i">I</span>
-                                <span className="junior-o">O</span>
-                                <span className="junior-r">R</span>
-                            </div>
-                            <div className="text2">
-                                <span className="developer-w">W</span>
-                                <span className="developer-e">e</span>
-                                <span className="developer-b">b</span>
-                                &nbsp;&nbsp;
-                                <span className="developer-d">D</span>
-                                <span className="developer-ee">e</span>
-                                <span className="developer-v">v</span>
-                                <span className="developer-eee">e</span>
-                                <span className="developer-l">l</span>
-                                <span className="developer-o">o</span>
-                                <span className="developer-p">p</span>
-                                <span className="developer-eeee">e</span>
-                                <span className="developer-r">r</span>
-                            </div>
+                <div className="temp">
+
+                </div>
+                <div className="first-block">
+
+                </div>
+                <div className="second-block">
+
+                </div>
+                <div className="loader">
+                    <ul>
+                        <li>S</li>
+                        <li>U</li>
+                        <li>N</li>
+                        <li>G</li>
+                        <li>J</li>
+                        <li>U</li>
+                        <li>N</li>
+                    </ul>
+                </div>
+                <div className="content-outside">
+                    <div className="content-inside">
+                        <div className="text1">
+                            <span className="junior-j">J</span>
+                            <span className="junior-u">U</span>
+                            <span className="junior-n">N</span>
+                            <span className="junior-i">I</span>
+                            <span className="junior-o">O</span>
+                            <span className="junior-r">R</span>
+                        </div>
+                        <div className="text2">
+                            <span className="developer-w">W</span>
+                            <span className="developer-e">e</span>
+                            <span className="developer-b">b</span>
+                            &nbsp;&nbsp;
+                            <span className="developer-d">D</span>
+                            <span className="developer-ee">e</span>
+                            <span className="developer-v">v</span>
+                            <span className="developer-eee">e</span>
+                            <span className="developer-l">l</span>
+                            <span className="developer-o">o</span>
+                            <span className="developer-p">p</span>
+                            <span className="developer-eeee">e</span>
+                            <span className="developer-r">r</span>
+                        </div>
+                        <div className="rev-block">
+                            <span>Sungjun Hong</span>
                         </div>
                     </div>
-                    {/* <div className="landing-label-width-yellow">
+                </div>
+                
+                {/* <div className="landing-label-width-yellow">
 
-                    </div> */}
-                    <div className="landing-pic">
-                        
-                    </div>
+                </div> */}
+                <div className="landing-pic">
+                    
+                </div>
             </MainContainer>
         )
     }

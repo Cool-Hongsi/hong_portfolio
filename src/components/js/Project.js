@@ -39,27 +39,46 @@ export default class Project extends React.Component{
                     language : "ReactJS, ES6, router, axios",
                     content : "Extract data that I would like to receive through API (with axios), Represent data in ReactJS. Also, by using router, show each data as I set up the router path.",
                     github : "https://github.com/Cool-Hongsi/React-Manage-Employee"
+                },
+                {
+                    class : "pro5",
+                    title : "Shopping Mall",
+                    language : "E-Commerce (Shopify)",
+                    content : "Create online shopping mall website by using E-Commerce Platform (Shopify)",
+                    github : "https://purenatures.ca"
                 }
             ]
         }
     };
 
     componentDidMount(){
+
+        TweenMax.to(".project-show-outside", 1, {
+            delay: 4,
+            display: "none"
+        });
+
         // Effect to nav tag in MainContainer
         TweenMax.to("nav", 2, {
-            delay: .3,
+            delay: 4.5,
             opacity: 1
         });
         
         // Effect to nav ul li a tag in MainContainer
         TweenMax.to("nav ul li a", 2, {
-            delay: .3,
+            delay: 4.5,
             cursor: "pointer"
         });
 
         TweenMax.to(".letter", 1, {
-            delay: 2,
+            delay: 5.5,
             opacity: .2
+        });
+
+        TweenMax.to(".project-detail-outside", 2, {
+            delay: 6,
+            display: "block",
+            opacity: 1
         });
     }
 
@@ -67,21 +86,31 @@ export default class Project extends React.Component{
         return(
             <MainContainer>
 
-                {this.state.array.map((el, index) => {
-                    return(
-                        <div key={index}>
-                            <ProjectDetail class={el.class} title={el.title} language={el.language} content={el.content} github={el.github} />
-                        </div>
-                    )
-                })}
-
-                <Parallax className="letter letter1" speed={4}>P</Parallax>
-                <Parallax className="letter letter2" speed={5}>R</Parallax>
-                <Parallax className="letter letter3" speed={6}>O</Parallax>
-                <Parallax className="letter letter4" speed={4}>J</Parallax>
-                <Parallax className="letter letter5" speed={5}>E</Parallax>
-                <Parallax className="letter letter6" speed={6}>C</Parallax>
-                <Parallax className="letter letter7" speed={7}>T</Parallax>
+                <div className="project-show-outside">
+                    <div className="project-show-inside">
+                        What I Create ?
+                    </div>
+                </div>
+                
+                <div className="project-detail-outside">
+                    {this.state.array.map((el, index) => {
+                        return(
+                            <div key={index}>
+                                <ProjectDetail class={el.class} title={el.title} language={el.language} content={el.content} github={el.github} />
+                            </div>
+                        )
+                    })}
+                </div>
+                
+                <div className="project-detail-outside">
+                    <Parallax className="letter letter1" speed={4}>P</Parallax>
+                    <Parallax className="letter letter2" speed={5}>R</Parallax>
+                    <Parallax className="letter letter3" speed={6}>O</Parallax>
+                    <Parallax className="letter letter4" speed={4}>J</Parallax>
+                    <Parallax className="letter letter5" speed={5}>E</Parallax>
+                    <Parallax className="letter letter6" speed={6}>C</Parallax>
+                    <Parallax className="letter letter7" speed={7}>T</Parallax>
+                </div>
 
             </MainContainer>
         )

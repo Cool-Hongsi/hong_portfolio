@@ -392,6 +392,77 @@ p{
     }
 }
 
+.rev-block {
+    position: absolute;
+    margin: 80px 0px 0px 30px;
+    width: 450px;
+    color: rgb(61, 60, 60);
+}
+
+.rev-block span {
+    opacity: 0;
+    animation: appear-text 0.0001s linear forwards;
+    -webkit-animation: appear-text 0.0001s linear forwards;
+    -moz-animation: appear-text 0.0001s linear forwards;
+    -ms-animation: appear-text 0.0001s linear forwards;
+
+    animation-delay: 13s;
+    -webkit-animation-delay: 13s;
+    -moz-animation-delay: 13s;
+    -ms-animation-delay: 13s;
+
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+
+.rev-block:after {
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: #e63333;
+    animation: rev-block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -webkit-animation: rev-block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: rev-block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -ms-animation: rev-block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+
+    animation-delay: 12.6s;
+    -webkit-animation-delay: 12.6s;
+    -moz-animation-delay: 12.6s;
+    -ms-animation-dely: 12.6s;
+}
+
+@keyframes rev-block {
+
+    0% {
+         left: 0;
+         width: 0%;
+    }
+    50% {
+         left: 0;
+         width: 100%;
+    }
+    100% {
+         left: 100%;
+         width: 0%;
+    }
+
+}
+
+@keyframes appear-text {
+
+    0% {
+         opacity: 0;
+    }
+    100% {
+         opacity: 1;
+    }
+
+}
+
 @media screen and (min-width: 1600px){
     .loader ul li{
         font-size: 80px; 
@@ -402,6 +473,15 @@ p{
     }
 
     .text2{
+        font-size: 60px;
+    }
+
+    .rev-block {
+        margin: 100px 0px 0px 100px;
+        width: 600px;
+    }
+    
+    .rev-block span {
         font-size: 60px;
     }
 }
@@ -418,6 +498,15 @@ p{
     .text2{
         font-size: 30px;
     }
+
+    .rev-block {
+        margin: 80px 0px 0px 80px;
+        width: 350px;
+    }
+    
+    .rev-block span {
+        font-size: 30px;
+    }
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px){
@@ -431,6 +520,15 @@ p{
 
     .text2{
         font-size: 22px;
+    }
+
+    .rev-block {
+        margin: 80px 0px 0px 90px;
+        width: 220px;
+    }
+    
+    .rev-block span {
+        font-size: 20px;
     }
 
     /* .landing-label-width-yellow{
@@ -453,6 +551,16 @@ p{
         margin-left: 20px;
     }
 
+    .rev-block {
+        margin: 80px 0px 0px 70px;
+        width: 200px;
+    }
+    
+    .rev-block span {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
 /* 
     .landing-label-width-yellow{
         height: 35%;
@@ -472,6 +580,16 @@ p{
     .text2{
         font-size: 15px;
         margin-left: 0px;
+    }
+
+    .rev-block {
+        margin: 80px 0px 0px 70px;
+        width: 160px;
+    }
+    
+    .rev-block span {
+        font-size: 17px;
+        letter-spacing: 2px;
     }
 
     /* .landing-label-width-yellow{

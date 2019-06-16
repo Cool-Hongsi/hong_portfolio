@@ -16,10 +16,10 @@
     -moz-animation: projectPictureEffect 1.5s 1;
     -ms-animation: projectPictureEffect 1.5s 1;
 
-    animation-delay: 2s;
-    -webkit-animation-delay: 2s;
-    -moz-animation-delay: 2s;
-    -ms-animation-delay: 2s;
+    animation-delay: 7s;
+    -webkit-animation-delay: 7s;
+    -moz-animation-delay: 7s;
+    -ms-animation-delay: 7s;
 
     height: 30%;
     display: flex;
@@ -46,10 +46,10 @@
     -moz-animation: projectPictureEffect 1.5s 1;
     -ms-animation: projectPictureEffect 1.5s 1;
 
-    animation-delay: 2.3s;
-    -webkit-animation-delay: 2.3s;
-    -moz-animation-delay: 2.3s;
-    -ms-animation-delay: 2.3s;
+    animation-delay: 7.3s;
+    -webkit-animation-delay: 7.3s;
+    -moz-animation-delay: 7.3s;
+    -ms-animation-delay: 7.3s;
 
     height: 36%;
     display: flex;
@@ -76,10 +76,10 @@
     -moz-animation: projectPictureEffect 1.5s 1;
     -ms-animation: projectPictureEffect 1.5s 1;
 
-    animation-delay: 2.6s;
-    -webkit-animation-delay: 2.6s;
-    -moz-animation-delay: 2.6s;
-    -ms-animation-delay: 2.6s;
+    animation-delay: 7.6s;
+    -webkit-animation-delay: 7.6s;
+    -moz-animation-delay: 7.6s;
+    -ms-animation-delay: 7.6s;
 
     height: 37%;
     display: flex;
@@ -101,22 +101,52 @@
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 
-    margin-bottom: 200px;
     animation: projectPictureEffect 1.5s 1;
     -webkit-animation: projectPictureEffect 1.5s 1;
     -moz-animation: projectPictureEffect 1.5s 1;
     -ms-animation: projectPictureEffect 1.5s 1;
 
-    animation-delay: 2.9s;
-    -webkit-animation-delay: 2.9s;
-    -moz-animation-delay: 2.9s;
-    -ms-animation-delay: 2.9s;
+    animation-delay: 7.9s;
+    -webkit-animation-delay: 7.9s;
+    -moz-animation-delay: 7.9s;
+    -ms-animation-delay: 7.9s;
 
     height: 29%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #129c6e;
+}
+
+.pro5{
+    width: 25%;
+    margin: auto;
+    position: absolute;
+    left: 45%;
+    top: 150%;
+    opacity: 0;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    margin-bottom: 200px;
+    animation: projectPictureEffect 1.5s 1;
+    -webkit-animation: projectPictureEffect 1.5s 1;
+    -moz-animation: projectPictureEffect 1.5s 1;
+    -ms-animation: projectPictureEffect 1.5s 1;
+
+    animation-delay: 7.9s;
+    -webkit-animation-delay: 7.9s;
+    -moz-animation-delay: 7.9s;
+    -ms-animation-delay: 7.9s;
+
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9c1273;
 }
 
 @keyframes projectPictureEffect{
@@ -231,8 +261,29 @@
     text-align: left;
 }
 
+.pro5 .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+
+    background: rgb(255, 255, 255);
+    /* background-image: linear-gradient(to bottom right, rgb(250, 74, 74)rgb(177, 177, 177)); */
+    border-radius: 5px;
+    text-align: left;
+}
+
 .pro1:hover .overlay, .pro2:hover .overlay,
-.pro3:hover .overlay, .pro4:hover .overlay{
+.pro3:hover .overlay, .pro4:hover .overlay,
+.pro5:hover .overlay{
     opacity: 1;
 }
 
@@ -344,6 +395,11 @@
     .pro4{
         width: 40%;
     }
+
+    .pro5{
+        top: 160%;
+        width: 30%;
+    }
     
     .project-title{
         font-size: 50px;
@@ -376,6 +432,10 @@
     
     .pro4{
         width: 40%;
+    }
+
+    .pro5{
+        width: 30%;
     }
     
     .project-title{
@@ -410,6 +470,10 @@
     .pro4{
         left: 60%;
         width: 40%;
+    }
+
+    .pro5{
+        width: 30%;
     }
     
     .project-title{
@@ -451,8 +515,13 @@
         width: 50%;
         left: 70%;
         top: 130%;
-        margin-bottom: 200px;
         height: 29%;
+    }
+
+    .pro5{
+        width: 40%;
+        left: 30%;
+        margin-bottom: 200px;
     }
     
     .project-title{
@@ -495,8 +564,14 @@
         width: 60%;
         left: 70%;
         top: 140%;
-        margin-bottom: 300px;
         height: 31%;
+    }
+
+    .pro5{
+        width: 50%;
+        top: 170%;
+        left: 30%;
+        margin-bottom: 300px;
     }
     
     .project-title{
@@ -539,8 +614,14 @@
         width: 75%;
         left: 60%;
         top: 145%;
-        margin-bottom: 300px;
         height: 31%;
+    }
+
+    .pro5{
+        width: 55%;
+        top: 170%;
+        left: 40%;
+        margin-bottom: 300px;
     }
     
     .project-title{

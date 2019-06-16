@@ -6,37 +6,64 @@ import { Container, Row, Col } from 'reactstrap';
 import frontendImage from '../image/monitor.jpg';
 import backendImage from '../image/server.png';
 import etcImage from '../image/etc.png';
-import AOS from 'aos';
 
 export default class Skill extends React.Component{
 
     componentDidMount(){
-        AOS.init({
-            duration : 1500
+
+        TweenMax.to(".skill-show-outside", 1, {
+            delay: 4,
+            display: "none"
         });
 
         // Effect to nav tag in MainContainer
         TweenMax.to("nav", 2, {
-            delay: .3,
+            delay: 4.5,
             opacity: 1
         });
         
         // Effect to nav ul li a tag in MainContainer
         TweenMax.to("nav ul li a", 2, {
-            delay: .3,
+            delay: 4.5,
             cursor: "pointer"
+        });
+
+        TweenMax.to(".skill-outside-frontend", 2, {
+            delay: 5.5,
+            display: "block",
+            opacity: 1
+        });
+
+        TweenMax.to(".skill-outside-backend", 2, {
+            delay: 6,
+            display: "block",
+            opacity: 1
+        });
+
+        TweenMax.to(".skill-outside-etc", 2, {
+            delay: 6.5,
+            display: "block",
+            opacity: 1
         });
     }
 
     render(){
         return(
             <MainContainer>
+
+                <div className="skill-show-outside">
+                    <div className="skill-show-inside">
+                        What I Have ?
+                    </div>
+                </div>
+
                 <div className="skill-outside-frontend">
                     <div className="skill-inside-frontend">
                         <Container>
                             <Row>
                                 <Col xs="12" sm="12" md="6" lg="6" xl="6">
-                                    <div data-aos="fade-up" className="left">
+                                    {/* <div data-aos="fade-up" className="left"> */}
+                                    <div className="left">
                                         <div className="front-main-title">
                                             Frontend
                                         </div>
@@ -44,7 +71,8 @@ export default class Skill extends React.Component{
                                     </div>
                                 </Col>
                                 <Col xs="12" sm="12" md="6" lg="6" xl="6">
-                                    <div data-aos="fade-up" className="right">
+                                    {/* <div data-aos="fade-up" className="right"> */}
+                                    <div className="right">
                                         <p className="front-title">HTML (2 Years)</p>
                                         <span className="front-content">Tag Handling | Jade Template</span>
                                         <hr/>
@@ -68,7 +96,8 @@ export default class Skill extends React.Component{
                         <Container>
                             <Row>
                                 <Col xs="12" sm="12" md="6" lg="6" xl="6">
-                                    <div data-aos="fade-up" className="left">
+                                    {/* <div data-aos="fade-up" className="left"> */}
+                                    <div className="left">
                                         <div className="back-main-title">
                                             Backend
                                         </div>
@@ -76,7 +105,8 @@ export default class Skill extends React.Component{
                                     </div>
                                 </Col>
                                 <Col xs="12" sm="12" md="6" lg="6" xl="6">
-                                    <div data-aos="fade-up" className="right">
+                                    {/* <div data-aos="fade-up" className="right"> */}
+                                    <div className="right">
                                         <p className="back-title">NodeJS (1 Year)</p>
                                         <span className="back-content">Express | MVC | REST API<br/>Socket | Asynchronous (Promise)</span>
                                         <hr/>
@@ -99,7 +129,8 @@ export default class Skill extends React.Component{
                         <Container>
                             <Row>
                                 <Col xs="12" sm="12" md="6" lg="6" xl="6">
-                                    <div data-aos="fade-up" className="left">
+                                    {/* <div data-aos="fade-up" className="left"> */}
+                                    <div className="left">
                                         <div className="etc-main-title">
                                             etc
                                         </div>
@@ -107,7 +138,8 @@ export default class Skill extends React.Component{
                                     </div>
                                 </Col>
                                 <Col xs="12" sm="12" md="6" lg="6" xl="6">
-                                    <div data-aos="fade-up" className="right">
+                                    {/* <div data-aos="fade-up" className="right"> */}
+                                    <div className="right">
                                         <p className="etc-title">Version Control (1 Year)</p>
                                         <span className="etc-content">Git (Commit, Push, Pull, Branch, Merge)</span>
                                         <hr/>
@@ -116,6 +148,9 @@ export default class Skill extends React.Component{
                                         <hr/>
                                         <p className="etc-title">OS (1 Year)</p>
                                         <span className="etc-content">Linux | Windows</span>
+                                        <hr/>
+                                        <p className="etc-title">E-Commerce (1 Year)</p>
+                                        <span className="etc-content">Shopify</span>
                                     </div>
                                 </Col>
                             </Row>
