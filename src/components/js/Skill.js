@@ -12,7 +12,7 @@ export default class Skill extends React.Component{
     componentDidMount(){
 
         TweenMax.to(".skill-show-outside", 1, {
-            delay: 4,
+            delay: 3.8,
             display: "none"
         });
 

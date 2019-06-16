@@ -10,7 +10,7 @@ export default class About extends React.Component{
     componentDidMount(){
 
         TweenMax.to(".about-show-outside", 1, {
-            delay: 4,
+            delay: 3.8,
             display: "none"
         });
 
