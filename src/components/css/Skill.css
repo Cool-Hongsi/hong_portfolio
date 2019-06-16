@@ -19,10 +19,10 @@
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 
-    animation: skillPageContent 3s 1;
-    -webkit-animation: skillPageContent 3s 1;
-    -moz-animation: skillPageContent 3s 1;
-    -ms-animation: skillPageContent 3s 1;
+    animation: skillPageContent 2.8s 1;
+    -webkit-animation: skillPageContent 2.8s 1;
+    -moz-animation: skillPageContent 2,8s 1;
+    -ms-animation: skillPageContent 2.8s 1;
 
     animation-delay: 1s;
     -webkit-animation-delay: 1s;

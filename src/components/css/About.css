@@ -19,10 +19,10 @@
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 
-    animation: aboutPageContent 3s 1;
-    -webkit-animation: aboutPageContent 3s 1;
-    -moz-animation: aboutPageContent 3s 1;
-    -ms-animation: aboutPageContent 3s 1;
+    animation: aboutPageContent 2.8s 1;
+    -webkit-animation: aboutPageContent 2.8s 1;
+    -moz-animation: aboutPageContent 2.8s 1;
+    -ms-animation: aboutPageContent 2.8s 1;
 
     animation-delay: 1s;
     -webkit-animation-delay: 1s;
