@@ -65,7 +65,7 @@ export default class About extends React.Component{
                             <p>
                                 Hi! My name is Sungjun Hong. I've graduated Seneca College in December 2018.
                                 I love doing all as long as I can learn newly and have a strong passion.
-                                Thank you for coming here and welcome to my portfolio!
+                                Thank you for coming and welcome to my portfolio!
                             </p>
                         </div>
                         <hr/>
