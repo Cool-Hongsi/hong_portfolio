@@ -465,15 +465,15 @@ p{
 
 @media screen and (min-width: 1600px){
     .loader ul li{
-        font-size: 80px; 
+        font-size: 70px; 
     }
 
     .text1{
-        font-size: 120px;
+        font-size: 100px;
     }
 
     .text2{
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .rev-block {
@@ -482,7 +482,7 @@ p{
     }
     
     .rev-block span {
-        font-size: 60px;
+        font-size: 50px;
     }
 }
 
