@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hong_portfolio/static/css/main.acf1cfd0.chunk.css",
+    "main.css": "/hong_portfolio/static/css/main.1fcb55df.chunk.css",
     "main.js": "/hong_portfolio/static/js/main.e12eb7a8.chunk.js",
     "main.js.map": "/hong_portfolio/static/js/main.e12eb7a8.chunk.js.map",
     "runtime~main.js": "/hong_portfolio/static/js/runtime~main.809cb21f.js",
@@ -9,10 +9,10 @@
     "static/js/2.a8490865.chunk.js": "/hong_portfolio/static/js/2.a8490865.chunk.js",
     "static/js/2.a8490865.chunk.js.map": "/hong_portfolio/static/js/2.a8490865.chunk.js.map",
     "index.html": "/hong_portfolio/index.html",
-    "precache-manifest.91d8044bdac3ab015afbfe9d25c5eeaa.js": "/hong_portfolio/precache-manifest.91d8044bdac3ab015afbfe9d25c5eeaa.js",
+    "precache-manifest.c8168f8ced7ac9ddc0bf7b075407a230.js": "/hong_portfolio/precache-manifest.c8168f8ced7ac9ddc0bf7b075407a230.js",
     "service-worker.js": "/hong_portfolio/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/hong_portfolio/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.acf1cfd0.chunk.css.map": "/hong_portfolio/static/css/main.acf1cfd0.chunk.css.map",
+    "static/css/main.1fcb55df.chunk.css.map": "/hong_portfolio/static/css/main.1fcb55df.chunk.css.map",
     "static/media/Face.png": "/hong_portfolio/static/media/Face.0ad0b875.png",
     "static/media/About.css": "/hong_portfolio/static/media/experience.88537f3d.jpg"
   }
