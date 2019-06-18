@@ -113,7 +113,7 @@ export default class About extends React.Component{
                                             <div className="content-title">Experience</div><hr/>
                                             <div className="content-spec">
                                                 <ul>
-                                                    <li><b>Web Developer</b><br/>E-Commerce Maintenance<br/>VitaVita Inc (CA) | Jun 19 ~ Current<br/><br/></li>
+                                                    <li><b>Web Developer</b><br/>E-Commerce Maintenance<br/>VitaVita Inc (CA) | Jun 19 ~ Present<br/><br/></li>
                                                     <li><b>Office Staff</b><br/>Financing and Accounting<br/>Shinhan Heavy Inc (KO) | May 14 ~ Aug 16<br/></li>
                                                 </ul>
                                             </div>
