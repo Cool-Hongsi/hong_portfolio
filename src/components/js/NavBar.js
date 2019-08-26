@@ -11,7 +11,7 @@ export default class NavBar extends React.Component{
                     <label htmlFor="nav" className="nav-btn">
                         <i></i>
                         <i></i>
-                        <i></i> 
+                        <i></i>
                     </label>
                     <div className="logo">
                         <Link to="/" className="link" style={{textDecoration: "none"}}>HONG</Link>
