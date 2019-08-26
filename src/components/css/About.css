@@ -140,16 +140,16 @@
     -ms-transform: translate(-50%, -50%);
     /* background-color: rgb(58, 58, 58); */
     color: rgb(53, 53, 53);
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .about-outside-education .about-inside-education .right-content .content .content-title{
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 800;
 }
 
 .about-outside-education .about-inside-education .right-content .content .content-spec{
-    font-size: 19px;
+    font-size: 16px;
 }
 
 .about-outside-education .about-inside-education .right-content .content .content-spec ul{
@@ -198,17 +198,17 @@
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     /* background-color: rgb(227, 246, 255); */
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .about-outside-experience .about-inside-experience .left-content .content .content-title{
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 800;
     color: rgb(235, 235, 235);
 }
 
 .about-outside-experience .about-inside-experience .left-content .content .content-spec{
-    font-size: 19px;
+    font-size: 16px;
     color: rgb(235, 235, 235);
 }
 
@@ -239,27 +239,27 @@
     }
     
     .about-outside-education .about-inside-education .right-content .content{
-        line-height: 38px;
+        line-height: 35px;
     }
     
     .about-outside-education .about-inside-education .right-content .content .content-title{
-        font-size: 45px;
+        font-size: 42px;
     }
     
     .about-outside-education .about-inside-education .right-content .content .content-spec{
-        font-size: 25px;
+        font-size: 22px;
     }
     
     .about-outside-experience .about-inside-experience .left-content .content{
-        line-height: 38px;
+        line-height: 35px;
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-title{
-        font-size: 45px;
+        font-size: 42px;
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-spec{
-        font-size: 25px;
+        font-size: 22px;
     }
 }
 
@@ -286,27 +286,27 @@
     }
     
     .about-outside-education .about-inside-education .right-content .content{
-        line-height: 28px;
+        line-height: 24px;
     }
     
     .about-outside-education .about-inside-education .right-content .content .content-title{
-        font-size: 28px;
+        font-size: 25px;
     }
     
     .about-outside-education .about-inside-education .right-content .content .content-spec{
-        font-size: 17px;
+        font-size: 15px;
     }
     
     .about-outside-experience .about-inside-experience .left-content .content{
-        line-height: 28px;
+        line-height: 24px;
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-title{
-        font-size: 28px;
+        font-size: 25px;
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-spec{
-        font-size: 17px;
+        font-size: 15px;
     }
 }
 
@@ -333,27 +333,27 @@
     }
     
     .about-outside-education .about-inside-education .right-content .content{
-        line-height: 28px;
+        line-height: 22px;
     }
     
     .about-outside-education .about-inside-education .right-content .content .content-title{
-        font-size: 25px;
+        font-size: 22px;
     }
     
     .about-outside-education .about-inside-education .right-content .content .content-spec{
-        font-size: 13px;
+        font-size: 12px;
     }
     
     .about-outside-experience .about-inside-experience .left-content .content{
-        line-height: 28px;
+        line-height: 22px;
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-title{
-        font-size: 25px;
+        font-size: 22px;
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-spec{
-        font-size: 13px;
+        font-size: 12px;
     }
 }
 
@@ -393,15 +393,15 @@
     }
     
     .about-outside-education .about-inside-education .right-content .content{
-        line-height: 30px;
+        line-height: 22px;
     }
     
     .about-outside-education .about-inside-education .right-content .content .content-title{
-        font-size: 30px;
+        font-size: 26px;
     }
     
     .about-outside-education .about-inside-education .right-content .content .content-spec{
-        font-size: 18px;
+        font-size: 16px;
     }
     
     .about-outside-experience{
@@ -419,15 +419,15 @@
     }
     
     .about-outside-experience .about-inside-experience .left-content .content{
-        line-height: 30px;
+        line-height: 22px;
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-title{
-        font-size: 30px;
+        font-size: 26px;
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-spec{
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
@@ -467,15 +467,15 @@
     }
     
     .about-outside-education .about-inside-education .right-content .content{
-        line-height: 25px;
+        line-height: 22px;
     }
     
     .about-outside-education .about-inside-education .right-content .content .content-title{
-        font-size: 23px;
+        font-size: 21px;
     }
     
     .about-outside-education .about-inside-education .right-content .content .content-spec{
-        font-size: 13px;
+        font-size: 12px;
     }
     
     .about-outside-experience{
@@ -493,15 +493,15 @@
     }
     
     .about-outside-experience .about-inside-experience .left-content .content{
-        line-height: 25px;
+        line-height: 22px;
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-title{
-        font-size: 23px;
+        font-size: 21px;
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-spec{
-        font-size: 13px;
+        font-size: 12px;
     }
 }
 
@@ -542,15 +542,15 @@
     }
     
     .about-outside-education .about-inside-education .right-content .content{
-        line-height: 23px;
+        line-height: 20px;
     }
     
     .about-outside-education .about-inside-education .right-content .content .content-title{
-        font-size: 17px;
+        font-size: 16px;
     }
     
     .about-outside-education .about-inside-education .right-content .content .content-spec{
-        font-size: 12px;
+        font-size: 11px;
     }
     
     .about-outside-experience{
@@ -568,14 +568,14 @@
     }
     
     .about-outside-experience .about-inside-experience .left-content .content{
-        line-height: 23px;
+        line-height: 20px;
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-title{
-        font-size: 17px;
+        font-size: 16px;
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-spec{
-        font-size: 12px;
+        font-size: 11px;
     }
 }

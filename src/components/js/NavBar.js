@@ -23,7 +23,7 @@ export default class NavBar extends React.Component{
                             <li><Link to="/about" className="link" style={{textDecoration: "none"}}>About</Link></li>
                             <li><Link to="/skill" className="link" style={{textDecoration: "none"}}>Skill</Link></li>
                             <li><Link to="/project" className="link" style={{textDecoration: "none"}}>Project</Link></li>
-                            <li><a href="https://google.com" className="link" style={{textDecoration: "none"}}>Blog</a></li>
+                            <li><a href="https://google.com" className="link" style={{textDecoration: "none", color: "#4750c9"}} target="_blank" rel="noopener noreferrer">Blog</a></li>
 
                             {/* <li><a href="/" style={{textDecoration: "none", color: "#000"}}>Home</a></li>
                             <li><a href="/about" style={{textDecoration: "none", color: "#000"}}>About</a></li>

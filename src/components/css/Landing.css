@@ -4,7 +4,7 @@
     height: 100vh;
     /* background: url('../image/temp.gif') no-repeat 50% 50%;
     background-size: cover; */
-    background: #bd5050;
+    background: #50bdbd;
     animation: fadeOut 5s linear forwards;
     opacity: 1;
     -webkit-animation: fadeOut 5s linear forwards;
@@ -64,7 +64,7 @@
     position: absolute;
     width: 0%;
     height: 100vh;
-    background: rgb(233, 159, 75);
+    background: #4750c9;
     animation: go-left 3.2s cubic-bezier(.74, .06, .4, .92) forwards;
     -webkit-animation: go-left 3.2s cubic-bezier(.74, .06, .4, .92) forwards;
     -moz-animation: go-left 3.2s cubic-bezier(.74, .06, .4, .92) forwards;
@@ -423,7 +423,7 @@ p{
     position: absolute;
     width: 0%;
     height: 100%;
-    background: #e63333;
+    background: #4750c9;
     animation: rev-block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
     -webkit-animation: rev-block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
     -moz-animation: rev-block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
