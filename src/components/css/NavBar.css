@@ -197,6 +197,13 @@ nav ul li a {
         -ms-transition-delay: .5s;
     }
 
+    .nav-wrapper ul li:nth-child(5) a{
+        transition-delay: .6s;
+        -webkit-transition-delay: .6s;
+        -moz-transition-delay: .6s;
+        -ms-transition-delay: .6s;
+    }
+
     .nav-wrapper ul li:not(:first-child){
         margin-left: 0;
     }
@@ -233,7 +240,7 @@ nav ul li a {
     .nav-btn i{
         display: block;
         width: 20px;
-        height: 2px;
+        height: 1.5px;
         background: #000;
         border-radius: 2px;
         margin-left: 14px;

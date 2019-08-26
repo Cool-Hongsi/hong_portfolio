@@ -42,9 +42,9 @@ export default class Project extends React.Component{
                 },
                 {
                     class : "pro5",
-                    title : "Shopping Mall",
-                    language : "E-Commerce (Shopify)",
-                    content : "Create online shopping mall website by using E-Commerce Platform (Shopify)",
+                    title : "Shopping Mall & Website",
+                    language : "Shopify & Wordpress",
+                    content : "Create online shopping mall & website by using CMS Platform (Shopify & Wordpress)",
                     github : "https://purenatures.ca"
                 }
             ]

@@ -143,14 +143,11 @@ export default class Skill extends React.Component{
                                         <p className="etc-title">Version Control (1 Year)</p>
                                         <span className="etc-content">Git (Commit, Push, Pull, Branch, Merge)</span>
                                         <hr/>
-                                        <p className="etc-title">AWS (Studying)</p>
-                                        <span className="etc-content">EC2 | S3 | RDS</span>
+                                        <p className="etc-title">CMS (1 Year)</p>
+                                        <span className="etc-content">Wordpress (WooCommerce) | Shopify</span>
                                         <hr/>
-                                        <p className="etc-title">OS (1 Year)</p>
-                                        <span className="etc-content">Linux | Windows</span>
-                                        <hr/>
-                                        <p className="etc-title">E-Commerce (1 Year)</p>
-                                        <span className="etc-content">Shopify</span>
+                                        <p className="etc-title">SEO (1 Year)</p>
+                                        <span className="etc-content">Google (Search Console | AdWords | Analytics)</span>
                                     </div>
                                 </Col>
                             </Row>
