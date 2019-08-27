@@ -4,7 +4,7 @@
     height: 100vh;
     /* background: url('../image/temp.gif') no-repeat 50% 50%;
     background-size: cover; */
-    background: #4750c9;
+    background: #696eb4;
     animation: fadeOut 5s linear forwards;
     opacity: 1;
     -webkit-animation: fadeOut 5s linear forwards;
@@ -64,7 +64,7 @@
     position: absolute;
     width: 0%;
     height: 100vh;
-    background: #ab47c9;
+    background: #4a53cf;
     animation: go-left 3.2s cubic-bezier(.74, .06, .4, .92) forwards;
     -webkit-animation: go-left 3.2s cubic-bezier(.74, .06, .4, .92) forwards;
     -moz-animation: go-left 3.2s cubic-bezier(.74, .06, .4, .92) forwards;
