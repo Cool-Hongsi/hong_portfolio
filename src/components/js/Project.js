@@ -28,10 +28,10 @@ export default class Project extends React.Component{
                 },
                 {
                     class : "pro3",
-                    title : "Shopping Cart",
-                    language : "MVC (ReactJS, NodeJS, MongoDB), REST API, session, fetch, ES6",
-                    content : " As the standard of MVC design, stored product list information into MongoDB and send the data from one of the routers in NodeJS. After then, set up the proxy server as the same server of NodeJS, and receive the data by using fetch method in ReactJS. Also, represent data through ES6 (spread, includes).",
-                    github : "https://github.com/Cool-Hongsi/shoppingcart"
+                    title : "Github Cart",
+                    language : "ReactJS, Redux, Jest, Enzyme, SCSS",
+                    content : "This application is motivated on shopping cart. Used ReactJS / Redux / Jest / Enzyme / SCSS. The main points for this application is that firstly, used axios to receive the github information via github API with ReduxThunk (Async). Secondly, by using Jest, test Component, Action Functions, PropsType and Integration for store.",
+                    github : "https://github.com/Cool-Hongsi/Github-Cart"
                 },
                 {
                     class : "pro4",
