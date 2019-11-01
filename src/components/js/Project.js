@@ -29,23 +29,23 @@ export default class Project extends React.Component{
                 {
                     class : "pro3",
                     title : "Github Cart",
-                    language : "ReactJS, Redux, Jest, Enzyme, SCSS",
+                    language : "ReactJS, Redux, Redux Thunk, Jest, Enzyme, SCSS",
                     content : "This application is motivated on shopping cart. Used ReactJS / Redux / Jest / Enzyme / SCSS. The main points for this application is that firstly, used axios to receive the github information via github API with ReduxThunk (Async). Secondly, by using Jest, test Component, Action Functions, PropsType and Integration for store.",
-                    github : "https://github.com/Cool-Hongsi/Github-Cart"
+                    github : "https://cool-hongsi.github.io/Github-Cart/"
                 },
                 {
                     class : "pro4",
-                    title : "Manage Info",
-                    language : "ReactJS, ES6, router, axios",
-                    content : "Extract data that I would like to receive through API (with axios), Represent data in ReactJS. Also, by using router, show each data as I set up the router path.",
-                    github : "https://github.com/Cool-Hongsi/React-Manage-Employee"
+                    title : "Pixabay API",
+                    language : "ReactJS, Redux, Redux Thunk, SCSS",
+                    content : "Access to Pixabay API and Store images to My Collection.",
+                    github : "https://cool-hongsi.github.io/Pixabay-API/"
                 },
                 {
                     class : "pro5",
-                    title : "Shopping Mall & Website",
-                    language : "Shopify & Wordpress",
-                    content : "Create online shopping mall & website by using CMS Platform (Shopify & Wordpress)",
-                    github : "https://purenatures.ca"
+                    title : "Awesome Website",
+                    language : "Wordpress / Bootstrap 4 / PHP / Plugin / JavaScript",
+                    content : "Customized Wordpress theme with lightweight and Created flexible theme (Custom Field / Custom Post Type)",
+                    github : "https://awesome-theme.com"
                 }
             ]
         }

@@ -18,10 +18,10 @@ export default class Landing extends React.Component{
             cursor: "pointer"
         });
 
-        TweenMax.to(".landing-pic", 1, {
-            delay: 7.5,
-            opacity: 1
-        });
+        // TweenMax.to(".landing-pic", 1, {
+        //     delay: 7.5,
+        //     opacity: 1
+        // });
 
         // TweenMax.to(".landing-label-width-yellow", 1, {
         //     delay : 8,
@@ -31,42 +31,42 @@ export default class Landing extends React.Component{
         // });
 
         TweenMax.to(".text1", 1, {
-            delay: 8.4,
+            delay: 7.5,
             opacity: 1
         });
 
-        TweenMax.to(".junior-j", .3, {opacity: 1, delay : 8.5});
-        TweenMax.to(".junior-u", .3, {opacity: 1, delay : 8.9});
-        TweenMax.to(".junior-n", .3, {opacity: 1, delay : 9.1});
-        TweenMax.to(".junior-i", .3, {opacity: 1, delay : 9.3});
-        TweenMax.to(".junior-o", .3, {opacity: 1, delay : 9.5});
-        TweenMax.to(".junior-r", .3, {opacity: 1, delay : 8.5});
+        TweenMax.to(".junior-j", .3, {opacity: 1, delay : 7.7});
+        TweenMax.to(".junior-u", .3, {opacity: 1, delay : 7.9});
+        TweenMax.to(".junior-n", .3, {opacity: 1, delay : 8.1});
+        TweenMax.to(".junior-i", .3, {opacity: 1, delay : 8.3});
+        TweenMax.to(".junior-o", .3, {opacity: 1, delay : 8.5});
+        TweenMax.to(".junior-r", .3, {opacity: 1, delay : 8.7});
 
         TweenMax.to(".text2", 1, {
-            delay: 9.9,
+            delay: 9,
             opacity: 1
         });
 
-        TweenMax.to(".developer-w", .3, {opacity: 1, delay : 10});
-        TweenMax.to(".developer-e", .3, {opacity: 1, delay : 10.4});
-        TweenMax.to(".developer-b", .3, {opacity: 1, delay : 10.5});
-        TweenMax.to(".developer-d", .3, {opacity: 1, delay : 10});
-        TweenMax.to(".developer-ee", .3, {opacity: 1, delay : 10.6});
-        TweenMax.to(".developer-v", .3, {opacity: 1, delay : 10.7});
-        TweenMax.to(".developer-eee", .3, {opacity: 1, delay : 10.8});
-        TweenMax.to(".developer-l", .3, {opacity: 1, delay : 10.9});
-        TweenMax.to(".developer-o", .3, {opacity: 1, delay : 11});
-        TweenMax.to(".developer-p", .3, {opacity: 1, delay : 11.1});
-        TweenMax.to(".developer-eeee", .3, {opacity: 1, delay : 11.2});
-        TweenMax.to(".developer-r", .3, {opacity: 1, delay : 11.3});
+        TweenMax.to(".developer-w", .3, {opacity: 1, delay : 9.5});
+        TweenMax.to(".developer-e", .3, {opacity: 1, delay : 10});
+        TweenMax.to(".developer-b", .3, {opacity: 1, delay : 10.1});
+        TweenMax.to(".developer-d", .3, {opacity: 1, delay : 9.5});
+        TweenMax.to(".developer-ee", .3, {opacity: 1, delay : 10.2});
+        TweenMax.to(".developer-v", .3, {opacity: 1, delay : 10.3});
+        TweenMax.to(".developer-eee", .3, {opacity: 1, delay : 10.4});
+        TweenMax.to(".developer-l", .3, {opacity: 1, delay : 10.5});
+        TweenMax.to(".developer-o", .3, {opacity: 1, delay : 10.6});
+        TweenMax.to(".developer-p", .3, {opacity: 1, delay : 10.7});
+        TweenMax.to(".developer-eeee", .3, {opacity: 1, delay : 10.8});
+        TweenMax.to(".developer-r", .3, {opacity: 1, delay : 10.9});
 
         TweenMax.to(".text1", .8, {
-            delay: 12,
+            delay: 11.5,
             x: 50
         });
 
         TweenMax.to(".text2", .8, {
-            delay: 12,
+            delay: 11.5,
             x: 90,
             textShadow: "5px 5px 10px darkgray"
         });
@@ -133,9 +133,9 @@ export default class Landing extends React.Component{
                 {/* <div className="landing-label-width-yellow">
 
                 </div> */}
-                <div className="landing-pic">
+                {/* <div className="landing-pic">
                     
-                </div>
+                </div> */}
             </MainContainer>
         )
     }

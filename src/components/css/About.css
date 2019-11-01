@@ -115,19 +115,18 @@
 .about-outside-education .about-inside-education .left-pic{
     position: relative;
     width : 100%;
-    height: 50vh;
+    height: 70vh;
     background: url('../image/education.jpg') no-repeat 50% 50%;
     background-size: cover;
-    /* filter: brightness(80%); */
+    filter: brightness(80%);
 }
 
 .about-outside-education .about-inside-education .right-content{
     position: relative;
     width: 100%;
-    height: 50vh;
-    background-color: rgb(255, 242, 242);
-    text-align: center;
-    margin: 60px 0px 0px -200px;
+    height: 70vh;
+    /* background-color: rgb(255, 242, 242); */
+    text-align: right;
 }
 
 .about-outside-education .about-inside-education .right-content .content{
@@ -173,19 +172,19 @@
 .about-outside-experience .about-inside-experience .right-pic{
     position: relative;
     width : 100%;
-    height: 50vh;
+    height: 70vh;
     background: url('../image/experience.jpg') no-repeat 50% 50%;
     background-size: cover;
+    filter: brightness(80%);
 }
 
 .about-outside-experience .about-inside-experience .left-content{
     position: relative;
     width: 100%;
-    height: 50vh;
-    background-color: rgb(54, 54, 54);
-    margin: -60px 0px 0px 200px;
+    height: 70vh;
+    /* background-color: rgb(54, 54, 54); */
     /* margin: 60px 0px 0px -200px; */
-    text-align: center;
+    text-align: left;
     z-index: 1;
 }
 
@@ -199,17 +198,17 @@
     -ms-transform: translate(-50%, -50%);
     /* background-color: rgb(227, 246, 255); */
     line-height: 25px;
+    color: rgb(53, 53, 53);
 }
 
 .about-outside-experience .about-inside-experience .left-content .content .content-title{
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 800;
-    color: rgb(235, 235, 235);
 }
 
 .about-outside-experience .about-inside-experience .left-content .content .content-spec{
-    font-size: 16px;
-    color: rgb(235, 235, 235);
+    font-size: 18px;
+    text-align: left;
 }
 
 .about-outside-experience .about-inside-experience .left-content .content .content-spec ul{
@@ -255,11 +254,11 @@
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-title{
-        font-size: 42px;
+        font-size: 45px;
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-spec{
-        font-size: 22px;
+        font-size: 24px;
     }
 }
 
@@ -302,11 +301,11 @@
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-title{
-        font-size: 25px;
+        font-size: 28px;
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-spec{
-        font-size: 15px;
+        font-size: 17px;
     }
 }
 
@@ -349,11 +348,11 @@
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-title{
-        font-size: 22px;
+        font-size: 24px;
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-spec{
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
@@ -423,11 +422,11 @@
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-title{
-        font-size: 26px;
+        font-size: 28px;
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-spec{
-        font-size: 16px;
+        font-size: 17px;
     }
 }
 
@@ -484,7 +483,7 @@
     
     .about-outside-experience .about-inside-experience .right-pic{
         height: 30vh;
-        margin: 0px 0px 100px 0px;
+        margin: 100px 0px 100px 0px;
     }
     
     .about-outside-experience .about-inside-experience .left-content{
@@ -497,11 +496,11 @@
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-title{
-        font-size: 21px;
+        font-size: 24px;
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-spec{
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
@@ -559,7 +558,7 @@
     
     .about-outside-experience .about-inside-experience .right-pic{
         height: 30vh;
-        margin: 0px 0px 100px 0px;
+        margin: 100px 0px 100px 0px;
     }
     
     .about-outside-experience .about-inside-experience .left-content{
@@ -572,10 +571,10 @@
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-title{
-        font-size: 16px;
+        font-size: 18px;
     }
     
     .about-outside-experience .about-inside-experience .left-content .content .content-spec{
-        font-size: 11px;
+        font-size: 13px;
     }
 }

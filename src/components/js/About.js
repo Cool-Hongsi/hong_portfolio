@@ -62,9 +62,10 @@ export default class About extends React.Component{
                         <div className="face-content">
                             <h4>Coding, Singing, Sports, Game</h4>
                             <hr/>
-                            <p>
-                                Hi! My name is Sungjun Hong. I've graduated Seneca College in December 2018.
-                                I love doing all as long as I can learn newly and have a strong passion.
+                            <p style={{textAlign:"justify"}}>
+                                Self-motivated web developer with a desire to learn new technology. Developed an e-commerce webapp and
+                                small business landing page in the least amount of time. Passionate about front-end web programming skills and
+                                architecture. Hard-working team player with positive manner.
                                 Interested ? Explore my portfolio website and BLOG containing my programming story !
                             </p>
                         </div>
@@ -80,12 +81,12 @@ export default class About extends React.Component{
                     <div className="about-inside-education">
                         <Container>
                             <Row>
-                                <Col xs="12" sm="12" md="6" lg="6" xl="6">
+                                <Col xs="12" sm="12" md="4" lg="4" xl="4">
                                     <div className="left-pic">
                                 
                                     </div>
                                 </Col>
-                                <Col xs="12" sm="12" md="6" lg="6" xl="6">
+                                <Col xs="12" sm="12" md="8" lg="8" xl="8">
                                     <div className="right-content">
                                         <div className="content">
                                             <div className="content-title">Education</div><hr/>
@@ -107,20 +108,21 @@ export default class About extends React.Component{
                     <div className="about-inside-experience">
                         <Container>
                             <Row>
-                                <Col xs="12" sm="12" md="6" lg="6" xl="6">
+                                <Col xs="12" sm="12" md="8" lg="8" xl="8">
                                     <div className="left-content">
                                         <div className="content">
                                             <div className="content-title">Experience</div><hr/>
                                             <div className="content-spec">
                                                 <ul>
-                                                    <li><b>Web Developer</b><br/>E-Commerce Maintenance (Shopify)<br/>Create Website (Wordpress)<br/>VitaVita Inc (CA) | Jun 19 ~ Aug 19<br/><br/></li>
-                                                    <li><b>Office Staff</b><br/>Financing and Accounting<br/>Project Management<br/>Shinhan Heavy Inc (KO) | May 14 ~ Aug 16<br/></li>
+                                                    <li><b>React Web Developer<br/>Treasured INC (Markham, ON) | Oct 19 ~ Present</b><br/>- Take part in Github Project (Volunteer)<br/>- Front End Development with React & Redux<br/>- Creating new components and function based on mock up design<br/>- Github Issue Tracker with Scrum Sprint Methodology<br/><br/></li>
+                                                    <li><b>Web Developer<br/>VitaVita INC (Thornhill, ON) | Jun 19 ~ Aug 19</b><br/>- E-Commerce Maintenance (Shopify)<br/>- Create Website (Wordpress)<br/><br/></li>
+                                                    <li><b>Office Staff<br/>Shinhan Heavy INC (KO) | May 14 ~ Aug 16</b><br/>- Financing and Accounting<br/>- Project Management<br/></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </Col>
-                                <Col xs="12" sm="12" md="6" lg="6" xl="6">
+                                <Col xs="12" sm="12" md="4" lg="4" xl="4">
                                     <div className="right-pic">
                                 
                                     </div>

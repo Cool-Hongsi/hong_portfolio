@@ -77,13 +77,13 @@ export default class Skill extends React.Component{
                                         <span className="front-content">Tag Handling | Jade Template</span>
                                         <hr/>
                                         <p className="front-title">CSS (2 Years)</p>
-                                        <span className="front-content">Bootstrap | Responsive (Grid, Media Query)<br/>Cross Browser | SCSS & SASS (Studying)</span>
+                                        <span className="front-content">Bootstrap | Responsive (Grid, Media Query)<br/>Cross Browser | SCSS Preprocessor</span>
                                         <hr/>
                                         <p className="front-title">Javascript (2 Years)</p>
-                                        <span className="front-content">ES6 | DOM | JSON | jQuery | Utilize API</span>
+                                        <span className="front-content">ES6 | DOM | JSON | Integrate Third Party API | jQuery</span>
                                         <hr/>
                                         <p className="front-title">ReactJS (1 Year)</p>
-                                        <span className="front-content">Props | State | Axios | Router | LifeCycle | REST API<br/>Single Page Application | Jest (Studying) | Redux (Studying)</span>
+                                        <span className="front-content">Props | State | Axios | Router | LifeCycle | REST API<br/>SPA | Jest & Enzyme | Redux (Thunk & Saga)</span>
                                     </div>
                                 </Col>
                             </Row>
@@ -108,12 +108,12 @@ export default class Skill extends React.Component{
                                     {/* <div data-aos="fade-up" className="right"> */}
                                     <div className="right">
                                         <p className="back-title">NodeJS (1 Year)</p>
-                                        <span className="back-content">Express | MVC | REST API<br/>Socket | Asynchronous (Promise)</span>
+                                        <span className="back-content">Express | MVC Design | REST API<br/>Socket.io | Asyn (Promise) | Combine DB</span>
                                         <hr/>
                                         <p className="back-title">Database (1 Year)</p>
-                                        <span className="back-content">MySQL (Basic SQL, Workbench)<br/></span>
-                                        <span className="back-content">PostgreSQL (Basic SQL, PgAdmin)<br/></span>
-                                        <span className="back-content">MongoDB (Basic Methods, mLab)<br/></span>
+                                        <span className="back-content">MySQL (SQL, Workbench)<br/></span>
+                                        <span className="back-content">PostgreSQL (SQL, PgAdmin)<br/></span>
+                                        <span className="back-content">MongoDB (NOSQL, mLab)<br/></span>
                                         <hr/>
                                         <p className="back-title">Java & Python (Studying)</p>
                                         <span className="back-content">Spring (Studying) | Django (Studying)</span>
@@ -141,10 +141,10 @@ export default class Skill extends React.Component{
                                     {/* <div data-aos="fade-up" className="right"> */}
                                     <div className="right">
                                         <p className="etc-title">Version Control (1 Year)</p>
-                                        <span className="etc-content">Git (Commit, Push, Pull, Branch, Merge)</span>
+                                        <span className="etc-content">Git (Work Flow, Commit, Push, Pull, Branch, Merge)</span>
                                         <hr/>
                                         <p className="etc-title">CMS (1 Year)</p>
-                                        <span className="etc-content">Wordpress (WooCommerce) | Shopify</span>
+                                        <span className="etc-content">Wordpress (WooCommerce & Website) | Shopify</span>
                                         <hr/>
                                         <p className="etc-title">SEO (1 Year)</p>
                                         <span className="etc-content">Google (Search Console | AdWords | Analytics)</span>
