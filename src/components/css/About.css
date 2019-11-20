@@ -159,7 +159,7 @@
     position: relative;
     width: 80%;
     margin: auto;
-    height: 80vh;
+    padding: 130px 0px 0px 0px;
     margin-top: 12%;
     opacity: 0;
     display: none;
@@ -483,7 +483,7 @@
     
     .about-outside-experience .about-inside-experience .right-pic{
         height: 30vh;
-        margin: 100px 0px 100px 0px;
+        margin: 150px 0px 100px 0px;
     }
     
     .about-outside-experience .about-inside-experience .left-content{
@@ -558,7 +558,7 @@
     
     .about-outside-experience .about-inside-experience .right-pic{
         height: 30vh;
-        margin: 100px 0px 100px 0px;
+        margin: 150px 0px 100px 0px;
     }
     
     .about-outside-experience .about-inside-experience .left-content{
