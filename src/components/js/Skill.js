@@ -83,7 +83,7 @@ export default class Skill extends React.Component{
                                         <span className="front-content">ES6 | DOM | JSON | Integrate Third Party API | jQuery</span>
                                         <hr/>
                                         <p className="front-title">ReactJS (1 Year)</p>
-                                        <span className="front-content">Props | State | Axios | Router | LifeCycle | REST API<br/>SPA | Jest & Enzyme | Redux (Thunk & Saga)</span>
+                                        <span className="front-content">React Hook | Axios | Router | LifeCycle | REST API<br/>SPA | Jest & Enzyme | Redux (Thunk & Saga)</span>
                                     </div>
                                 </Col>
                             </Row>
