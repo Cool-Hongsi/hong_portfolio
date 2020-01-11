@@ -114,7 +114,7 @@ export default class About extends React.Component{
                                             <div className="content-title">Experience</div><hr/>
                                             <div className="content-spec">
                                                 <ul>
-                                                    <li><b>Front End Developer<br/>PETOBE (Markham, ON) | Dec 19 ~ Present</b><br/>- Frontend Development with React & Redux<br/>- Collaborating with Designers and Backend Team (UI & UX)<br/>- Development Web Application with Booking, Shopping System<br/><br/></li>
+                                                    <li><b>Front End Developer<br/>PETOBE (Markham, ON) | Dec 19 ~ Present</b><br/>- Frontend Development with React & Redux<br/>- Collaborating with Designers and Backend Team (UI & UX)<br/>- Development Web Application with API Handling<br/><br/></li>
                                                     <li><b>React Web Developer<br/>Treasured INC (Markham, ON) | Oct 19 ~ Dec 19</b><br/>- Take part in Github Project (Volunteer)<br/>- Front End Development with React & Redux<br/>- Creating new components and function based on mock up design<br/>- Github Issue Tracker with Scrum Sprint Methodology<br/><br/></li>
                                                     <li><b>Web Developer<br/>VitaVita INC (Thornhill, ON) | Jun 19 ~ Aug 19</b><br/>- E-Commerce Maintenance (Shopify)<br/>- Create Website (Wordpress)<br/><br/></li>
                                                     <li><b>Office Staff<br/>Shinhan Heavy INC (KO) | May 14 ~ Aug 16</b><br/>- Financing and Accounting<br/>- Project Management<br/></li>
