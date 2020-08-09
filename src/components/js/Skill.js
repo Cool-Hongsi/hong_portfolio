@@ -73,17 +73,17 @@ export default class Skill extends React.Component{
                                 <Col xs="12" sm="12" md="6" lg="6" xl="6">
                                     {/* <div data-aos="fade-up" className="right"> */}
                                     <div className="right">
-                                        <p className="front-title">HTML (2 Years)</p>
-                                        <span className="front-content">Tag Handling | Jade Template</span>
-                                        <hr/>
-                                        <p className="front-title">CSS (2 Years)</p>
+                                        <p className="front-title">HTML , CSS</p>
                                         <span className="front-content">Bootstrap | Responsive (Grid, Media Query)<br/>Cross Browser | SCSS Preprocessor</span>
                                         <hr/>
-                                        <p className="front-title">Javascript (2 Years)</p>
-                                        <span className="front-content">ES6 | DOM | JSON | Integrate Third Party API | jQuery</span>
+                                        <p className="front-title">Javascript</p>
+                                        <span className="front-content">ES6, 7 | DOM | JSON | Integrate Third Party API</span>
                                         <hr/>
-                                        <p className="front-title">ReactJS (1 Year)</p>
-                                        <span className="front-content">React Hook | Axios | Router | LifeCycle | REST API<br/>SPA | Jest & Enzyme | Redux (Thunk & Saga)</span>
+                                        <p className="front-title">ReactJS</p>
+                                        <span className="front-content">React Hook | Axios | Router | LifeCycle | REST API<br/>SPA | Redux (with Saga)</span>
+                                        <hr/>
+                                        <p className="front-title">Mobile</p>
+                                        <span className="front-content">Flutter | React Native</span>                                        
                                     </div>
                                 </Col>
                             </Row>
@@ -107,16 +107,13 @@ export default class Skill extends React.Component{
                                 <Col xs="12" sm="12" md="6" lg="6" xl="6">
                                     {/* <div data-aos="fade-up" className="right"> */}
                                     <div className="right">
-                                        <p className="back-title">NodeJS (1 Year)</p>
+                                        <p className="back-title">NodeJS</p>
                                         <span className="back-content">Express | MVC Design | REST API<br/>Socket.io | Asyn (Promise) | Combine DB</span>
                                         <hr/>
-                                        <p className="back-title">Database (1 Year)</p>
-                                        <span className="back-content">MySQL (SQL, Workbench)<br/></span>
-                                        <span className="back-content">PostgreSQL (SQL, PgAdmin)<br/></span>
-                                        <span className="back-content">MongoDB (NOSQL, mLab)<br/></span>
-                                        <hr/>
-                                        <p className="back-title">Java & Python (Studying)</p>
-                                        <span className="back-content">Spring (Studying) | Django (Studying)</span>
+                                        <p className="back-title">Firebase</p>
+                                        <span className="back-content">Auth with OAuth<br/></span>
+                                        <span className="back-content">Cloud Firestore<br/></span>
+                                        <span className="back-content">Firebase Functions (REST API)<br/></span>
                                     </div>
                                 </Col>
                             </Row>
@@ -140,14 +137,11 @@ export default class Skill extends React.Component{
                                 <Col xs="12" sm="12" md="6" lg="6" xl="6">
                                     {/* <div data-aos="fade-up" className="right"> */}
                                     <div className="right">
-                                        <p className="etc-title">Version Control (1 Year)</p>
+                                        <p className="etc-title">Version Control</p>
                                         <span className="etc-content">Git (Work Flow, Commit, Push, Pull, Branch, Merge)</span>
                                         <hr/>
-                                        <p className="etc-title">CMS (1 Year)</p>
+                                        <p className="etc-title">CMS</p>
                                         <span className="etc-content">Wordpress (WooCommerce & Website) | Shopify</span>
-                                        <hr/>
-                                        <p className="etc-title">SEO (1 Year)</p>
-                                        <span className="etc-content">Google (Search Console | AdWords | Analytics)</span>
                                     </div>
                                 </Col>
                             </Row>

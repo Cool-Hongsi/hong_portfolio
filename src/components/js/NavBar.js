@@ -13,7 +13,7 @@ export default class NavBar extends React.Component{
                         <i></i>
                         <i></i>
                     </label>
-                    <div className="logo">
+                    <div className="logo" style={{marginTop: '30px'}}>
                         <Link to="/" className="link" style={{textDecoration: "none"}}>HONG</Link>
                         {/* <a href="/" style={{textDecoration: "none", color: "#000"}}>HONG</a> */}
                     </div>

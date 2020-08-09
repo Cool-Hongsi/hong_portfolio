@@ -63,10 +63,9 @@ export default class About extends React.Component{
                             <h4>Coding, Singing, Sports, Game</h4>
                             <hr/>
                             <p style={{textAlign:"justify"}}>
-                                Self-motivated web developer with a desire to learn new technology. Developed an e-commerce webapp and
-                                small business landing page in the least amount of time. Passionate about front-end web programming skills and
-                                architecture. Hard-working team player with positive manner.
-                                Interested ? Explore my portfolio website and BLOG containing my programming story !
+                                Self-motivated web developer with a desire to learn new technology. Developed web (React) & mobile
+                                application (Flutter) based on UI / UX. Passionate about front-end web programming skills and architecture.
+                                Hard-working team player with positive manner
                             </p>
                         </div>
                         <hr/>
@@ -114,9 +113,8 @@ export default class About extends React.Component{
                                             <div className="content-title">Experience</div><hr/>
                                             <div className="content-spec">
                                                 <ul>
-                                                    <li><b>Front End Developer<br/>PETOBE (Markham, ON) | Dec 19 ~ Present</b><br/>- State Management by Redux & Saga (Immutability)<br/>- Create Reusable Component & Process Tracking System<br/>- Create Function (SignUp (Access Token) & Google & Login)<br/>- UI & UX Compatibility, API Handling with Swagger<br/>- Git Version Control (Private Project)<br/><br/></li>
+                                                    <li><b>Front End Developer<br/>PETOBE (Markham, ON) | Dec 19 ~ Present</b><br/>- Front End Web Development with React & Redux<br/>- Mobile Application Development with Flutter<br/>- Collaborating with Designers and Backend Team<br/>- REST API Handling and Responsive Design<br/><br/></li>
                                                     <li><b>React Web Developer<br/>Treasured INC (Markham, ON) | Oct 19 ~ Dec 19</b><br/>- Take part in Github Project (Volunteer)<br/>- Front End Development with React & Redux<br/>- Creating new components and function based on mock up design<br/>- Github Issue Tracker with Scrum Sprint Methodology<br/><br/></li>
-                                                    <li><b>Web Developer<br/>VitaVita INC (Thornhill, ON) | Jun 19 ~ Aug 19</b><br/>- E-Commerce Maintenance (Shopify)<br/>- Create Website (Wordpress)<br/><br/></li>
                                                     <li><b>Office Staff<br/>Shinhan Heavy INC (KO) | May 14 ~ Aug 16</b><br/>- Financing and Accounting<br/>- Project Management<br/></li>
                                                 </ul>
                                             </div>

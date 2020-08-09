@@ -32,6 +32,7 @@ export default class ProjectDetail extends React.Component{
     }
 
     render(){
+        console.log(this.props.title);
         return(
             <div className={this.props.class}>
                 <h2 className="project-title">{this.props.title}</h2>
@@ -39,7 +40,10 @@ export default class ProjectDetail extends React.Component{
                     <div className="content">
                         <div style={{fontWeight: 700}}>{this.props.language}</div><br/>
                         {this.props.content}<br/><br/>
-                        <a href={this.props.github} target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>View</a>
+                        {(this.props.title === 'Laptop Shopping Mall' || this.props.title === 'Awesome Website')
+                        ? <a href={this.props.github} target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>View</a>
+                        : null
+                        }
                     </div>
                 </div>
             </div>

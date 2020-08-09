@@ -35,12 +35,11 @@ export default class Landing extends React.Component{
             opacity: 1
         });
 
-        TweenMax.to(".junior-j", .3, {opacity: 1, delay : 7.7});
-        TweenMax.to(".junior-u", .3, {opacity: 1, delay : 7.9});
-        TweenMax.to(".junior-n", .3, {opacity: 1, delay : 8.1});
-        TweenMax.to(".junior-i", .3, {opacity: 1, delay : 8.3});
-        TweenMax.to(".junior-o", .3, {opacity: 1, delay : 8.5});
-        TweenMax.to(".junior-r", .3, {opacity: 1, delay : 8.7});
+        TweenMax.to(".front-f", .3, {opacity: 1, delay : 7.7});
+        TweenMax.to(".front-r", .3, {opacity: 1, delay : 7.9});
+        TweenMax.to(".front-o", .3, {opacity: 1, delay : 8.1});
+        TweenMax.to(".front-n", .3, {opacity: 1, delay : 8.3});
+        TweenMax.to(".front-t", .3, {opacity: 1, delay : 8.5});
 
         TweenMax.to(".text2", 1, {
             delay: 9,
@@ -102,12 +101,11 @@ export default class Landing extends React.Component{
                 <div className="content-outside">
                     <div className="content-inside">
                         <div className="text1">
-                            <span className="junior-j">J</span>
-                            <span className="junior-u">U</span>
-                            <span className="junior-n">N</span>
-                            <span className="junior-i">I</span>
-                            <span className="junior-o">O</span>
-                            <span className="junior-r">R</span>
+                            <span className="front-f">F</span>
+                            <span className="front-r">R</span>
+                            <span className="front-o">O</span>
+                            <span className="front-n">N</span>
+                            <span className="front-t">T</span>
                         </div>
                         <div className="text2">
                             <span className="developer-w">W</span>
